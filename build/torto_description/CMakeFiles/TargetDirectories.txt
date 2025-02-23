@@ -1,0 +1,9 @@
+/home/sirapoob/tortoNvidia_ws/build/torto_description/CMakeFiles/uninstall.dir
+/home/sirapoob/tortoNvidia_ws/build/torto_description/CMakeFiles/torto_description_uninstall.dir
+/home/sirapoob/tortoNvidia_ws/build/torto_description/CMakeFiles/test.dir
+/home/sirapoob/tortoNvidia_ws/build/torto_description/CMakeFiles/edit_cache.dir
+/home/sirapoob/tortoNvidia_ws/build/torto_description/CMakeFiles/rebuild_cache.dir
+/home/sirapoob/tortoNvidia_ws/build/torto_description/CMakeFiles/list_install_components.dir
+/home/sirapoob/tortoNvidia_ws/build/torto_description/CMakeFiles/install.dir
+/home/sirapoob/tortoNvidia_ws/build/torto_description/CMakeFiles/install/local.dir
+/home/sirapoob/tortoNvidia_ws/build/torto_description/CMakeFiles/install/strip.dir

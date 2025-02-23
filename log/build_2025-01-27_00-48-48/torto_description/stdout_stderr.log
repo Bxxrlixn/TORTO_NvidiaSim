@@ -1,0 +1,36 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/sirapoob/tortoNvidia_ws/build/torto_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//urdf/torto.urdf
+-- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//launch/display.launch.xml
+-- Symlinking: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/torto_Body.stl
+-- Symlinking: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/torto_detoid_FLBR.stl
+-- Symlinking: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/torto_detoid_FRBL.stl
+-- Symlinking: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/torto_femur_FLBR.stl
+-- Symlinking: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/torto_femur_FRBL.stl
+-- Symlinking: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/torto_hamquad_FLBR.stl
+-- Symlinking: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/torto_hamquad_FRBL.stl
+-- Symlinking: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/torto_hip_FLBR.stl
+-- Symlinking: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/torto_hip_FRBL.stl
+-- Symlinking: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/torto_servo_arm.stl
+-- Symlinking: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/torto_tibia_FLBR.stl
+-- Symlinking: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/torto_tibia_FRBL.stl
+-- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/ament_index/resource_index/package_run_dependencies/torto_description
+-- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/ament_index/resource_index/parent_prefix_path/torto_description
+-- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/environment/path.sh
+-- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/environment/path.dsv
+-- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/local_setup.bash
+-- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/local_setup.sh
+-- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/local_setup.zsh
+-- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/local_setup.dsv
+-- Symlinking: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/package.dsv
+-- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/ament_index/resource_index/packages/torto_description
+-- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/cmake/torto_descriptionConfig.cmake
+-- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/cmake/torto_descriptionConfig-version.cmake
+-- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/package.xml

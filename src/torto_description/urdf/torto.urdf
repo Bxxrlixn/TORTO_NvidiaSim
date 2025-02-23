@@ -1,0 +1,409 @@
+<?xml version="1.0"?>
+<robot name="TORTO" >
+
+    <material name="grey">
+        <color rgba="0.2 0.2 0.2 1.0" />
+    </material>
+
+   <material name="darkRed">
+        <color rgba="0.6 0.2 0.2 1.0" />
+    </material>
+
+    <link name="tortoBody_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://torto_description/meshes/frame/torto_Body.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="grey" />
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <geometry>
+                <mesh filename="package://torto_description/meshes/frame/collision_Body.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+        </collision>
+                <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <mass value="3.290203" />
+        <inertia ixx="0.03564" ixy="0.000004006" ixz="-0.0000195224"
+                iyy="0.01457" iyz="0.0005701"
+                izz="0.03507"/>
+        </inertial>
+    </link>
+
+    <link name="tortoDetoidFL_link">
+        <visual>
+            <origin xyz="0.0078 -0.04 0.0032" rpy="0 0 1.57" />  
+            <geometry>
+                <mesh filename="package://torto_description/meshes/frame/torto_detoid_FLBR.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="darkRed" />
+        </visual>
+        <collision>
+            <origin xyz="0.0078 -0.04 0.0032" rpy="0 0 1.57" />  
+            <geometry>
+                <mesh filename="package://torto_description/meshes/frame/collision_DetoidFLBR.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <mass value="0.24" />
+            <inertia ixx="0.0001347" ixy="-0.00002384" ixz="0.000004721"
+                    iyy="0.0001803" iyz="0.000003043"
+                    izz="0.0001855"/>
+        </inertial>
+    </link>
+
+    <link name="tortoDetoidFR_link">
+        <visual>
+            <origin xyz="-0.0078 -0.04 0.0032" rpy="0 0 -1.57" />  
+            <geometry>
+                <mesh filename="package://torto_description/meshes/frame/torto_detoid_FRBL.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="darkRed" />
+        </visual>
+        <collision>
+            <origin xyz="-0.0078 -0.04 0.0032" rpy="0 0 -1.57" />  
+            <geometry>
+                <mesh filename="package://torto_description/meshes/frame/collision_DetoidFRBL.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="0 0.1 0" rpy="0 0 0" />
+            <mass value="0.24" />
+            <inertia ixx="0.0001347" ixy="0.00002384" ixz="-0.000004721"
+                    iyy="0.0001803" iyz="0.000003035"
+                    izz="0.0001855"/>
+        </inertial>
+    </link>
+
+    <link name="tortoDetoidBL_link">
+        <visual>
+            <origin xyz="0.0078 0.04 0.0032" rpy="0 0 1.57" />  
+            <geometry>
+                <mesh filename="package://torto_description/meshes/frame/torto_detoid_FRBL.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="darkRed" />
+        </visual>
+        <collision>
+            <origin xyz="0.0078 0.04 0.0032" rpy="0 0 1.57" />  
+            <geometry>
+                <mesh filename="package://torto_description/meshes/frame/collision_DetoidFRBL.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <mass value="0.24" />
+            <inertia ixx="0.0001347" ixy="0.00002384" ixz="-0.000004721"
+                    iyy="0.0001803" iyz="0.000003035"
+                    izz="0.0001855"/>
+        </inertial>
+    </link>
+
+    <link name="tortoDetoidBR_link">
+        <visual>
+            <origin xyz="-0.0078 0.04 0.0032" rpy="0 0 -1.57" />  
+            <geometry>
+                <mesh filename="package://torto_description/meshes/frame/torto_detoid_FLBR.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="darkRed" />
+        </visual>
+        <collision>
+            <origin xyz="-0.0078 0.04 0.0032" rpy="0 0 -1.57" />  
+            <geometry>
+                <mesh filename="package://torto_description/meshes/frame/collision_DetoidFLBR.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <mass value="0.24" />
+            <inertia ixx="0.0001347" ixy="-0.00002384" ixz="0.000004721"
+                    iyy="0.0001803" iyz="0.000003043"
+                    izz="0.0001855"/>
+        </inertial>
+    </link>
+
+    <link name="tortoFemurFL_link">
+        <visual>
+            <origin xyz="0 0.0362 -0.0004" rpy="0 0 1.57" />  
+            <geometry>
+                <mesh filename="package://torto_description/meshes/frame/torto_femur_FLBR.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="grey" />
+        </visual>
+        <collision>
+            <origin xyz="0 0.0362 -0.0004" rpy="0 0 1.57" />  
+            <geometry>
+                <mesh filename="package://torto_description/meshes/frame/collision_FemurFLBR.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <mass value="0.05" />
+            <inertia ixx="0.0000280436" ixy="0.0000017226" ixz="-0.0000119249"
+                    iyy="0.0000645956" iyz="0.00000049636"
+                    izz="0.0000406034"/>
+        </inertial>
+    </link>
+
+    <link name="tortoFemurFR_link">
+        <visual>
+            <origin xyz="0 0.0362 -0.0004" rpy="0 0 -1.57" />  
+            <geometry>
+                <mesh filename="package://torto_description/meshes/frame/torto_femur_FRBL.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="grey" />
+        </visual>
+        <collision>
+            <origin xyz="0 0.0362 -0.0004" rpy="0 0 -1.57" />  
+            <geometry>
+                <mesh filename="package://torto_description/meshes/frame/collision_FemurFRBL.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <mass value="0.05" />
+            <inertia ixx="0.0000280436" ixy="-0.0000017226" ixz="0.0000119249"
+                    iyy="0.0000645956" iyz="0.00000049637"
+                    izz="0.0000406034"/>
+        </inertial>
+    </link>
+
+    <link name="tortoFemurBL_link">
+        <visual>
+            <origin xyz="0 -0.0362 -0.0004" rpy="0 0 1.57" />  
+            <geometry>
+                <mesh filename="package://torto_description/meshes/frame/torto_femur_FRBL.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="grey" />
+        </visual>
+        <collision>
+            <origin xyz="0 -0.0362 -0.0004" rpy="0 0 -1.57" />  
+            <geometry>
+                <mesh filename="package://torto_description/meshes/frame/collision_FemurFRBL.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <mass value="0.05" />
+            <inertia ixx="0.0000280436" ixy="-0.0000017226" ixz="0.0000119249"
+                    iyy="0.0000645956" iyz="0.00000049637"
+                    izz="0.0000406034"/>
+        </inertial>
+    </link>
+
+    <link name="tortoFemurBR_link">
+        <visual>
+            <origin xyz="0 -0.0362 -0.0004" rpy="0 0 -1.57" />  
+            <geometry>
+                <mesh filename="package://torto_description/meshes/frame/torto_femur_FLBR.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="grey" />
+        </visual>
+        <collision>
+            <origin xyz="0 -0.0362 -0.0004" rpy="0 0 1.57" />  
+            <geometry>
+                <mesh filename="package://torto_description/meshes/frame/collision_FemurFLBR.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <mass value="0.05" />
+            <inertia ixx="0.0000280436" ixy="0.0000017226" ixz="-0.0000119249"
+                    iyy="0.0000645956" iyz="0.00000049636"
+                    izz="0.0000406034"/>
+        </inertial>
+    </link>
+
+    <link name="tortoTiBiaFL_link">
+        <visual>
+            <origin xyz="0.001 -0.06956 -0.00188" rpy="0 0 1.57" />  
+            <geometry>
+                <mesh filename="package://torto_description/meshes/frame/torto_tibia_FLBR.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="darkRed" />
+        </visual>
+        <collision>
+            <origin xyz="0.001 -0.06956 -0.00188" rpy="0 0 1.57" />  
+            <geometry>
+                <mesh filename="package://torto_description/meshes/frame/collision_TibiaFLBR.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <mass value="0.07" />
+            <inertia ixx="0.0000096464" ixy="0.000000000076" ixz="-0.0000048666"
+                    iyy="0.0000833119" iyz="0.000000000067"
+                    izz="0.0000795021" />
+        </inertial>
+    </link>
+
+    <link name="tortoTiBiaFR_link">
+        <visual>
+            <origin xyz="-0.001 -0.06956 -0.00188" rpy="0 0 -1.57" />  
+            <geometry>
+                <mesh filename="package://torto_description/meshes/frame/torto_tibia_FRBL.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="darkRed" />
+        </visual>
+        <collision>
+            <origin xyz="-0.001 -0.06956 -0.00188" rpy="0 0 -1.57" />  
+            <geometry>
+                <mesh filename="package://torto_description/meshes/frame/collision_TibiaFRBL.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <mass value="0.07" />
+            <inertia ixx="0.0000096464" ixy="-0.000000000076" ixz="0.0000048666"
+                    iyy="0.0000833119" iyz="0.000000000067"
+                    izz="0.0000795021" />
+        </inertial>
+    </link>
+
+    <link name="tortoTiBiaBL_link">
+        <visual>
+            <origin xyz="-0.001 -0.06956 0.00188" rpy="0 3.14 1.57" />  
+            <geometry>
+                <mesh filename="package://torto_description/meshes/frame/torto_tibia_FRBL.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="darkRed" />
+        </visual>
+        <collision>
+            <origin xyz="-0.001 -0.06956 0.00188" rpy="0 0 -1.57" />  
+            <geometry>
+                <mesh filename="package://torto_description/meshes/frame/collision_TibiaFRBL.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <mass value="3.29" />
+            <inertia ixx="0.0000096464" ixy="-0.000000000076" ixz="0.0000048666"
+                    iyy="0.0000833119" iyz="0.000000000067"
+                    izz="0.0000795021" />
+        </inertial>
+    </link>
+
+    <link name="tortoTiBiaBR_link">
+        <visual>
+            <origin xyz="0.001 -0.06956 0.00188" rpy="0 3.14 -1.57" />  
+            <geometry>
+                <mesh filename="package://torto_description/meshes/frame/torto_tibia_FLBR.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <material name="darkRed" />
+        </visual>
+        <collision>
+            <origin xyz="0.001 -0.06956 0.00188" rpy="0 0 1.57" />  
+            <geometry>
+                <mesh filename="package://torto_description/meshes/frame/collision_TibiaFLBR.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+        </collision>
+        <inertial>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <mass value="0.07" />
+            <inertia ixx="0.0000096464" ixy="0.000000000076" ixz="-0.0000048666"
+                    iyy="0.0000833119" iyz="0.000000000067"
+                    izz="0.0000795021" />
+        </inertial>
+    </link>
+
+
+
+
+
+    <joint name="body_detoidFL_joint" type="revolute">
+        <parent link="tortoBody_link"/>
+        <child link="tortoDetoidFL_link"/>
+        <origin xyz="0.07 -0.0876 -0.0143" rpy="0 0 0" />
+        <axis xyz="0 1 0"/>
+        <limit lower="0.74" upper="-0.78" velocity="100" effort="100"/>
+    </joint>
+
+    <joint name="body_detoidFR_joint" type="revolute">
+        <parent link="tortoBody_link"/>
+        <child link="tortoDetoidFR_link"/>
+        <origin xyz="-0.07 -0.0876 -0.0143" rpy="0 0 0" />
+        <axis xyz="0 1 0"/>
+        <limit lower="-0.74" upper="0.78" velocity="100" effort="100"/>
+    </joint>
+
+    <joint name="body_detoidBL_joint" type="revolute">
+        <parent link="tortoBody_link"/>
+        <child link="tortoDetoidBL_link"/>
+        <origin xyz="0.07 0.0876 -0.0143" rpy="0 0 0" />
+        <axis xyz="0 1 0"/>
+        <limit lower="0.74" upper="-0.78" velocity="100" effort="100"/>
+    </joint>
+
+    <joint name="body_detoidBR_joint" type="revolute">
+        <parent link="tortoBody_link"/>
+        <child link="tortoDetoidBR_link"/>
+        <origin xyz="-0.07 0.0876 -0.0143" rpy="0 0 0" />
+        <axis xyz="0 1 0"/>
+        <limit lower="-0.74" upper="0.78" velocity="100" effort="100"/>
+    </joint>
+
+    <joint name="detoidFL_FemurFL_joint" type="revolute">
+        <parent link="tortoDetoidFL_link"/>
+        <child link="tortoFemurFL_link"/>
+        <origin xyz="0.0406 -0.050152 -0.012844" rpy="0 0 0" />
+        <axis xyz="1 0 0"/>
+        <limit lower="0.001" upper="-1.57" velocity="100" effort="100"/>
+    </joint>
+
+    <joint name="detoidFR_FemurFR_joint" type="revolute">
+        <parent link="tortoDetoidFR_link"/>
+        <child link="tortoFemurFR_link"/>
+        <origin xyz="-0.0406 -0.050152 -0.012844" rpy="0 0 0" />
+        <axis xyz="1 0 0"/>
+        <limit lower="0.001" upper="-1.57" velocity="100" effort="100"/>
+    </joint>
+
+    <joint name="detoidBL_FemurBL_joint" type="revolute">
+        <parent link="tortoDetoidBL_link"/>
+        <child link="tortoFemurBL_link"/>
+        <origin xyz="0.0406 0.050152 -0.012844" rpy="0 0 0" />
+        <axis xyz="1 0 0"/>
+        <limit lower="0.001" upper="1.57" velocity="100" effort="100"/>
+    </joint>
+
+    <joint name="detoidBR_FemurBR_joint" type="revolute">
+        <parent link="tortoDetoidBR_link"/>
+        <child link="tortoFemurBR_link"/>
+        <origin xyz="-0.0406 0.050152 -0.012844" rpy="0 0 0" />
+        <axis xyz="1 0 0"/>
+        <limit lower="0.001" upper="1.57" velocity="100" effort="100"/>
+    </joint>
+
+    <joint name="FemurFL_TiBiaFL_joint" type="revolute">
+        <parent link="tortoFemurFL_link"/>
+        <child link="tortoTiBiaFL_link"/>
+        <origin xyz="0 0.09 0" rpy="0 0 0" />
+        <axis xyz="1 0 0"/>
+        <limit lower="2.00" upper="0.78" velocity="100" effort="100"/>
+    </joint>
+
+    <joint name="FemurFR_TiBiaFR_joint" type="revolute">
+        <parent link="tortoFemurFR_link"/>
+        <child link="tortoTiBiaFR_link"/>
+        <origin xyz="0 0.09 0" rpy="0 0 0" />
+        <axis xyz="1 0 0"/>
+        <limit lower="2.00" upper="0.78" velocity="100" effort="100"/>
+    </joint>
+        <joint name="FemurBL_TiBiaBL_joint" type="revolute">
+        <parent link="tortoFemurBL_link"/>
+        <child link="tortoTiBiaBL_link"/>
+        <origin xyz="0 -0.09 0" rpy="0 0 0" />
+        <axis xyz="1 0 0"/>
+        <limit lower="1.14" upper="2.36" velocity="100" effort="100"/>
+    </joint>
+
+    <joint name="FemurBR_TiBiaBR_joint" type="revolute">
+        <parent link="tortoFemurBR_link"/>
+        <child link="tortoTiBiaBR_link"/>
+        <origin xyz="0 -0.09 0" rpy="0 0 0" />
+        <axis xyz="1 0 0"/>
+        <limit lower="1.14" upper="2.36" velocity="100" effort="100"/>
+    </joint>
+</robot>

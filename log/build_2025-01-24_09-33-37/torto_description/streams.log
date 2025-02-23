@@ -1,0 +1,23 @@
+[0.013s] Invoking command in '/home/sirapoob/tortoNvidia_ws/build/torto_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/sirapoob/ros2Study_ws/install/my_py_pkg:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sirapoob/tortoNvidia_ws/build/torto_description -- -j16 -l16
+[0.043s] Invoked command in '/home/sirapoob/tortoNvidia_ws/build/torto_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/sirapoob/ros2Study_ws/install/my_py_pkg:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sirapoob/tortoNvidia_ws/build/torto_description -- -j16 -l16
+[0.050s] Invoking command in '/home/sirapoob/tortoNvidia_ws/build/torto_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/sirapoob/ros2Study_ws/install/my_py_pkg:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sirapoob/tortoNvidia_ws/build/torto_description
+[0.056s] -- Install configuration: ""
+[0.057s] -- Execute custom install script
+[0.057s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//urdf/torto.urdf.xacro
+[0.057s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//launch/display.launch.xml
+[0.057s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/ament_index/resource_index/package_run_dependencies/torto_description
+[0.058s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/ament_index/resource_index/parent_prefix_path/torto_description
+[0.058s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/environment/ament_prefix_path.sh
+[0.058s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/environment/ament_prefix_path.dsv
+[0.058s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/environment/path.sh
+[0.058s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/environment/path.dsv
+[0.058s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/local_setup.bash
+[0.058s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/local_setup.sh
+[0.058s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/local_setup.zsh
+[0.058s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/local_setup.dsv
+[0.059s] -- Symlinking: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/package.dsv
+[0.065s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/ament_index/resource_index/packages/torto_description
+[0.065s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/cmake/torto_descriptionConfig.cmake
+[0.066s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/cmake/torto_descriptionConfig-version.cmake
+[0.066s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/package.xml
+[0.067s] Invoked command in '/home/sirapoob/tortoNvidia_ws/build/torto_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/sirapoob/ros2Study_ws/install/my_py_pkg:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sirapoob/tortoNvidia_ws/build/torto_description

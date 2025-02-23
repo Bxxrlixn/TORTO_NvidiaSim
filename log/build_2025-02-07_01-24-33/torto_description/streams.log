@@ -1,0 +1,43 @@
+[0.012s] Invoking command in '/home/sirapoob/tortoNvidia_ws/build/torto_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapoob/ros2Study_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sirapoob/tortoNvidia_ws/build/torto_description -- -j16 -l16
+[0.043s] Invoked command in '/home/sirapoob/tortoNvidia_ws/build/torto_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapoob/ros2Study_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sirapoob/tortoNvidia_ws/build/torto_description -- -j16 -l16
+[0.052s] Invoking command in '/home/sirapoob/tortoNvidia_ws/build/torto_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapoob/ros2Study_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sirapoob/tortoNvidia_ws/build/torto_description
+[0.058s] -- Install configuration: ""
+[0.058s] -- Execute custom install script
+[0.059s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//urdf/torto.urdf
+[0.059s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//launch/display.launch.xml
+[0.059s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/collision_Body.stl
+[0.059s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/collision_DetoidFLBR.stl
+[0.059s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/collision_DetoidFRBL.stl
+[0.059s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/collision_FemurFLBR.stl
+[0.059s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/collision_FemurFRBL.stl
+[0.060s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/collision_TibiaFLBR.stl
+[0.060s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/collision_TibiaFRBL.stl
+[0.060s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/torto_Body.stl
+[0.060s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/torto_detoid_FLBR.stl
+[0.060s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/torto_detoid_FRBL.stl
+[0.060s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/torto_femur_FLBR.stl
+[0.060s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/torto_femur_FRBL.stl
+[0.060s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/torto_hamquad_FLBR.stl
+[0.060s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/torto_hamquad_FRBL.stl
+[0.060s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/torto_hip_FLBR.stl
+[0.061s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/torto_hip_FRBL.stl
+[0.061s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/torto_servo_arm.stl
+[0.061s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/torto_tibia_FLBR.stl
+[0.061s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//meshes/frame/torto_tibia_FRBL.stl
+[0.061s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description//rviz/urdf_config.rviz
+[0.061s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/ament_index/resource_index/package_run_dependencies/torto_description
+[0.061s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/ament_index/resource_index/parent_prefix_path/torto_description
+[0.062s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/environment/ament_prefix_path.sh
+[0.062s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/environment/ament_prefix_path.dsv
+[0.062s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/environment/path.sh
+[0.062s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/environment/path.dsv
+[0.062s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/local_setup.bash
+[0.062s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/local_setup.sh
+[0.062s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/local_setup.zsh
+[0.063s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/local_setup.dsv
+[0.063s] -- Symlinking: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/package.dsv
+[0.071s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/ament_index/resource_index/packages/torto_description
+[0.071s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/cmake/torto_descriptionConfig.cmake
+[0.071s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/cmake/torto_descriptionConfig-version.cmake
+[0.071s] -- Up-to-date symlink: /home/sirapoob/tortoNvidia_ws/install/torto_description/share/torto_description/package.xml
+[0.072s] Invoked command in '/home/sirapoob/tortoNvidia_ws/build/torto_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapoob/ros2Study_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sirapoob/tortoNvidia_ws/build/torto_description
