@@ -1,0 +1,12 @@
+float64 theta_deg_fr_detoid
+float64 theta_deg_fr_femur
+float64 theta_deg_fr_tibia
+float64 theta_deg_fl_detoid
+float64 theta_deg_fl_femur
+float64 theta_deg_fl_tibia
+float64 theta_deg_br_detoid
+float64 theta_deg_br_femur
+float64 theta_deg_br_tibia
+float64 theta_deg_bl_detoid
+float64 theta_deg_bl_femur
+float64 theta_deg_bl_tibia

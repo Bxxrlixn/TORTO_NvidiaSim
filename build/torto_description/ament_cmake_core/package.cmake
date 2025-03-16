@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "torto_description")
 set(torto_description_VERSION "0.0.0")
-set(torto_description_MAINTAINER "sirapoob <sirapoob@todo.todo>")
+set(torto_description_MAINTAINER "sirapob <sirapob@todo.todo>")
 set(torto_description_BUILD_DEPENDS )
 set(torto_description_BUILDTOOL_DEPENDS "ament_cmake")
 set(torto_description_BUILD_EXPORT_DEPENDS )

@@ -1,1 +1,1 @@
-/home/sirapoob/tortoNvidia_ws/build/torto_description/ament_cmake_environment_hooks/local_setup.bash
+/home/sirapob/TORTO_NvidiaSim/build/torto_description/ament_cmake_environment_hooks/local_setup.bash

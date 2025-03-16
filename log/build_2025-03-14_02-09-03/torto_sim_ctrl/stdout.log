@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/torto_sim_ctrl/torto_sim_ctrl.egg-info
+writing ../../build/torto_sim_ctrl/torto_sim_ctrl.egg-info/PKG-INFO
+writing dependency_links to ../../build/torto_sim_ctrl/torto_sim_ctrl.egg-info/dependency_links.txt
+writing entry points to ../../build/torto_sim_ctrl/torto_sim_ctrl.egg-info/entry_points.txt
+writing requirements to ../../build/torto_sim_ctrl/torto_sim_ctrl.egg-info/requires.txt
+writing top-level names to ../../build/torto_sim_ctrl/torto_sim_ctrl.egg-info/top_level.txt
+writing manifest file '../../build/torto_sim_ctrl/torto_sim_ctrl.egg-info/SOURCES.txt'
+reading manifest file '../../build/torto_sim_ctrl/torto_sim_ctrl.egg-info/SOURCES.txt'
+writing manifest file '../../build/torto_sim_ctrl/torto_sim_ctrl.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sirapob/TORTO_NvidiaSim/build/torto_sim_ctrl/build
+creating /home/sirapob/TORTO_NvidiaSim/build/torto_sim_ctrl/build/lib
+creating /home/sirapob/TORTO_NvidiaSim/build/torto_sim_ctrl/build/lib/torto_sim_ctrl
+copying torto_sim_ctrl/__init__.py -> /home/sirapob/TORTO_NvidiaSim/build/torto_sim_ctrl/build/lib/torto_sim_ctrl
+copying torto_sim_ctrl/angles_to_joint_state.py -> /home/sirapob/TORTO_NvidiaSim/build/torto_sim_ctrl/build/lib/torto_sim_ctrl
+running install
+running install_lib
+creating /home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/lib/python3.10/site-packages/torto_sim_ctrl
+copying /home/sirapob/TORTO_NvidiaSim/build/torto_sim_ctrl/build/lib/torto_sim_ctrl/__init__.py -> /home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/lib/python3.10/site-packages/torto_sim_ctrl
+copying /home/sirapob/TORTO_NvidiaSim/build/torto_sim_ctrl/build/lib/torto_sim_ctrl/angles_to_joint_state.py -> /home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/lib/python3.10/site-packages/torto_sim_ctrl
+byte-compiling /home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/lib/python3.10/site-packages/torto_sim_ctrl/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/lib/python3.10/site-packages/torto_sim_ctrl/angles_to_joint_state.py to angles_to_joint_state.cpython-310.pyc
+running install_data
+creating /home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/share/ament_index
+creating /home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/share/ament_index/resource_index
+creating /home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/share/ament_index/resource_index/packages
+copying resource/torto_sim_ctrl -> /home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/share/ament_index/resource_index/packages
+copying package.xml -> /home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/share/torto_sim_ctrl
+running install_egg_info
+Copying ../../build/torto_sim_ctrl/torto_sim_ctrl.egg-info to /home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/lib/python3.10/site-packages/torto_sim_ctrl-0.0.0-py3.10.egg-info
+running install_scripts
+Installing angles_to_joint_state script to /home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/lib/torto_sim_ctrl
+writing list of installed files to '/home/sirapob/TORTO_NvidiaSim/build/torto_sim_ctrl/install.log'

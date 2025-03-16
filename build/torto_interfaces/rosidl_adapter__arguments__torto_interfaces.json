@@ -1,0 +1,6 @@
+{
+  "package_name": "torto_interfaces",
+  "non_idl_tuples": [
+    "/home/sirapob/TORTO_NvidiaSim/src/torto_interfaces:msg/TortoJointAngles.msg"
+  ]
+}

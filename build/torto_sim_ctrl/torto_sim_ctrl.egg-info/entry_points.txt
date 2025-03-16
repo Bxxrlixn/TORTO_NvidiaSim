@@ -1,0 +1,3 @@
+[console_scripts]
+angles_to_joint_state = torto_sim_ctrl.angles_to_joint_state:main
+

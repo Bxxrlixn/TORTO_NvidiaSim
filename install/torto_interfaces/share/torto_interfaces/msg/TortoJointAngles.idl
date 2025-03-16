@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from torto_interfaces/msg/TortoJointAngles.msg
+// generated code does not contain a copyright notice
+
+
+module torto_interfaces {
+  module msg {
+    struct TortoJointAngles {
+      double theta_deg_fr_detoid;
+
+      double theta_deg_fr_femur;
+
+      double theta_deg_fr_tibia;
+
+      double theta_deg_fl_detoid;
+
+      double theta_deg_fl_femur;
+
+      double theta_deg_fl_tibia;
+
+      double theta_deg_br_detoid;
+
+      double theta_deg_br_femur;
+
+      double theta_deg_br_tibia;
+
+      double theta_deg_bl_detoid;
+
+      double theta_deg_bl_femur;
+
+      double theta_deg_bl_tibia;
+    };
+  };
+};
