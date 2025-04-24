@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/torto_interfaces__rosidl_generator_py.dir/rosidl_generator_py/torto_interfaces/msg/_torto_ctrl_params_s.c.o"
+  "CMakeFiles/torto_interfaces__rosidl_generator_py.dir/rosidl_generator_py/torto_interfaces/msg/_torto_ctrl_params_s.c.o.d"
   "CMakeFiles/torto_interfaces__rosidl_generator_py.dir/rosidl_generator_py/torto_interfaces/msg/_torto_joint_angles_s.c.o"
   "CMakeFiles/torto_interfaces__rosidl_generator_py.dir/rosidl_generator_py/torto_interfaces/msg/_torto_joint_angles_s.c.o.d"
+  "CMakeFiles/torto_interfaces__rosidl_generator_py.dir/rosidl_generator_py/torto_interfaces/msg/_torto_sim_reset_s.c.o"
+  "CMakeFiles/torto_interfaces__rosidl_generator_py.dir/rosidl_generator_py/torto_interfaces/msg/_torto_sim_reset_s.c.o.d"
   "rosidl_generator_py/torto_interfaces/libtorto_interfaces__rosidl_generator_py.pdb"
   "rosidl_generator_py/torto_interfaces/libtorto_interfaces__rosidl_generator_py.so"
 )

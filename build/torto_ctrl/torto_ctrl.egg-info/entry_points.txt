@@ -1,0 +1,3 @@
+[console_scripts]
+torto_controller_node = torto_ctrl.torto_controller_node:main
+

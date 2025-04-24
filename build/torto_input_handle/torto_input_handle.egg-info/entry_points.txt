@@ -1,0 +1,3 @@
+[console_scripts]
+ps5_ctrl_params_node = torto_input_handle.ps5_ctrl_params_node:main
+

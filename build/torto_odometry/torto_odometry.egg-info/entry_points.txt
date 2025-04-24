@@ -1,0 +1,3 @@
+[console_scripts]
+odom_depen_on_imu_node = torto_odometry.odom_depen_on_imu_node:main
+

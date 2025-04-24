@@ -67,6 +67,8 @@ include CMakeFiles/torto_interfaces.dir/compiler_depend.make
 include CMakeFiles/torto_interfaces.dir/progress.make
 
 CMakeFiles/torto_interfaces: /home/sirapob/TORTO_NvidiaSim/src/torto_interfaces/msg/TortoJointAngles.msg
+CMakeFiles/torto_interfaces: /home/sirapob/TORTO_NvidiaSim/src/torto_interfaces/msg/TortoCtrlParams.msg
+CMakeFiles/torto_interfaces: /home/sirapob/TORTO_NvidiaSim/src/torto_interfaces/msg/TortoSimReset.msg
 
 torto_interfaces: CMakeFiles/torto_interfaces
 torto_interfaces: CMakeFiles/torto_interfaces.dir/build.make

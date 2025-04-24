@@ -1,0 +1,9 @@
+source;share/torto_rl_pkg/hook/pythonpath.ps1
+source;share/torto_rl_pkg/hook/pythonpath.dsv
+source;share/torto_rl_pkg/hook/pythonpath.sh
+source;share/torto_rl_pkg/hook/ament_prefix_path.ps1
+source;share/torto_rl_pkg/hook/ament_prefix_path.dsv
+source;share/torto_rl_pkg/hook/ament_prefix_path.sh
+source;../../build/torto_rl_pkg/share/torto_rl_pkg/hook/pythonpath_develop.ps1
+source;../../build/torto_rl_pkg/share/torto_rl_pkg/hook/pythonpath_develop.dsv
+source;../../build/torto_rl_pkg/share/torto_rl_pkg/hook/pythonpath_develop.sh

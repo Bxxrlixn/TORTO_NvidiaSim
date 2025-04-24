@@ -78,11 +78,25 @@ rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_joint_angles__ro
 rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_joint_angles__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em
 rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_joint_angles__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em
 rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_joint_angles__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/torto_interfaces/msg/TortoJointAngles.idl
+rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_joint_angles__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/torto_interfaces/msg/TortoCtrlParams.idl
+rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_joint_angles__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/torto_interfaces/msg/TortoSimReset.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support for eProsima Fast-RTPS"
 	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c --generator-arguments-file /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_typesupport_fastrtps_c__arguments.json
 
 rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_joint_angles__type_support_c.cpp: rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_joint_angles__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_joint_angles__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_ctrl_params__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_joint_angles__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_ctrl_params__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support_c.cpp: rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_joint_angles__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_sim_reset__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_joint_angles__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_sim_reset__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_sim_reset__type_support_c.cpp: rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_joint_angles__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_sim_reset__type_support_c.cpp
 
 CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_joint_angles__type_support_c.cpp.o: CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_joint_angles__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_joint_angles__type_support_c.cpp
@@ -98,14 +112,46 @@ CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesuppor
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_joint_angles__type_support_c.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_joint_angles__type_support_c.cpp -o CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_joint_angles__type_support_c.cpp.s
 
+CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support_c.cpp.o: CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support_c.cpp
+CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support_c.cpp.o: CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support_c.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support_c.cpp.o -MF CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support_c.cpp.o.d -o CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support_c.cpp.o -c /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support_c.cpp
+
+CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support_c.cpp > CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support_c.cpp.i
+
+CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support_c.cpp -o CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support_c.cpp.s
+
+CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_sim_reset__type_support_c.cpp.o: CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_sim_reset__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_sim_reset__type_support_c.cpp
+CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_sim_reset__type_support_c.cpp.o: CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_sim_reset__type_support_c.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_sim_reset__type_support_c.cpp.o -MF CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_sim_reset__type_support_c.cpp.o.d -o CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_sim_reset__type_support_c.cpp.o -c /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_sim_reset__type_support_c.cpp
+
+CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_sim_reset__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_sim_reset__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_sim_reset__type_support_c.cpp > CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_sim_reset__type_support_c.cpp.i
+
+CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_sim_reset__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_sim_reset__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_sim_reset__type_support_c.cpp -o CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_sim_reset__type_support_c.cpp.s
+
 # Object files for target torto_interfaces__rosidl_typesupport_fastrtps_c
 torto_interfaces__rosidl_typesupport_fastrtps_c_OBJECTS = \
-"CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_joint_angles__type_support_c.cpp.o"
+"CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_joint_angles__type_support_c.cpp.o" \
+"CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support_c.cpp.o" \
+"CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_sim_reset__type_support_c.cpp.o"
 
 # External object files for target torto_interfaces__rosidl_typesupport_fastrtps_c
 torto_interfaces__rosidl_typesupport_fastrtps_c_EXTERNAL_OBJECTS =
 
 libtorto_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_joint_angles__type_support_c.cpp.o
+libtorto_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support_c.cpp.o
+libtorto_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_sim_reset__type_support_c.cpp.o
 libtorto_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make
 libtorto_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
 libtorto_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
@@ -115,7 +161,7 @@ libtorto_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librm
 libtorto_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libtorto_interfaces__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librcutils.so
 libtorto_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libtorto_interfaces__rosidl_typesupport_fastrtps_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libtorto_interfaces__rosidl_typesupport_fastrtps_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -126,8 +172,12 @@ CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/clean
 
+CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_ctrl_params__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support_c.cpp
 CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_joint_angles__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_joint_angles__type_support_c.cpp
+CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_sim_reset__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_sim_reset__type_support_c.cpp
 	cd /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sirapob/TORTO_NvidiaSim/src/torto_interfaces /home/sirapob/TORTO_NvidiaSim/src/torto_interfaces /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/depend
 

@@ -1,13 +1,6 @@
 package.xml
 setup.cfg
 setup.py
-../../build/torto_sim_ctrl/torto_sim_ctrl.egg-info/PKG-INFO
-../../build/torto_sim_ctrl/torto_sim_ctrl.egg-info/SOURCES.txt
-../../build/torto_sim_ctrl/torto_sim_ctrl.egg-info/dependency_links.txt
-../../build/torto_sim_ctrl/torto_sim_ctrl.egg-info/entry_points.txt
-../../build/torto_sim_ctrl/torto_sim_ctrl.egg-info/requires.txt
-../../build/torto_sim_ctrl/torto_sim_ctrl.egg-info/top_level.txt
-../../build/torto_sim_ctrl/torto_sim_ctrl.egg-info/zip-safe
 resource/torto_sim_ctrl
 torto_sim_ctrl/__init__.py
 torto_sim_ctrl/angles_to_joint_state.py

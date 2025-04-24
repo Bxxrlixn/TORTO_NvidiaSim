@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from torto_interfaces/msg/TortoSimReset.msg
+// generated code does not contain a copyright notice
+
+
+module torto_interfaces {
+  module msg {
+    struct TortoSimReset {
+      @verbatim (language="comment", text=
+        "True if full omni.kit reset needed")
+      boolean hard_reset;
+
+      @verbatim (language="comment", text=
+        "True if robot state should be zeroed")
+      boolean zero_robot;
+
+      @verbatim (language="comment", text=
+        "Optional message like \"timeout\", \"fall\", etc.")
+      string reason;
+    };
+  };
+};

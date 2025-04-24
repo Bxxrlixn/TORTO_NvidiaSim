@@ -1,0 +1,69 @@
+[0.040s] Invoking command in '/home/sirapob/TORTO_NvidiaSim/build/torto_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/opt/ros/humble /usr/bin/cmake /home/sirapob/TORTO_NvidiaSim/src/torto_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sirapob/TORTO_NvidiaSim/install/torto_description
+[1.493s] -- The C compiler identification is GNU 11.4.0
+[1.493s] -- The CXX compiler identification is GNU 11.4.0
+[1.493s] -- Detecting C compiler ABI info
+[1.493s] -- Detecting C compiler ABI info - done
+[1.493s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.493s] -- Detecting C compile features
+[1.493s] -- Detecting C compile features - done
+[1.493s] -- Detecting CXX compiler ABI info
+[1.493s] -- Detecting CXX compiler ABI info - done
+[1.493s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.493s] -- Detecting CXX compile features
+[1.493s] -- Detecting CXX compile features - done
+[1.493s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.493s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.493s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.494s] -- Configuring done
+[1.494s] -- Generating done
+[1.494s] -- Build files have been written to: /home/sirapob/TORTO_NvidiaSim/build/torto_description
+[1.926s] Invoked command in '/home/sirapob/TORTO_NvidiaSim/build/torto_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/opt/ros/humble /usr/bin/cmake /home/sirapob/TORTO_NvidiaSim/src/torto_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sirapob/TORTO_NvidiaSim/install/torto_description
+[1.928s] Invoking command in '/home/sirapob/TORTO_NvidiaSim/build/torto_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/opt/ros/humble /usr/bin/cmake --build /home/sirapob/TORTO_NvidiaSim/build/torto_description -- -j16 -l16
+[1.984s] Invoked command in '/home/sirapob/TORTO_NvidiaSim/build/torto_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/opt/ros/humble /usr/bin/cmake --build /home/sirapob/TORTO_NvidiaSim/build/torto_description -- -j16 -l16
+[2.007s] Invoking command in '/home/sirapob/TORTO_NvidiaSim/build/torto_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/opt/ros/humble /usr/bin/cmake --install /home/sirapob/TORTO_NvidiaSim/build/torto_description
+[2.024s] -- Install configuration: ""
+[2.025s] -- Execute custom install script
+[2.027s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//urdf/torto.urdf
+[2.047s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//urdf/torto/configuration/torto_base.usd
+[2.065s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//urdf/torto/configuration/torto_physics.usd
+[2.081s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//urdf/torto/configuration/torto_sensor.usd
+[2.097s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//urdf/torto/torto.usd
+[2.115s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//launch/display.launch.xml
+[2.134s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/collision_Body.stl
+[2.151s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/collision_DetoidFLBR.stl
+[2.168s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/collision_DetoidFRBL.stl
+[2.187s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/collision_FemurFLBR.stl
+[2.205s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/collision_FemurFRBL.stl
+[2.222s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/collision_TibiaFLBR.stl
+[2.239s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/collision_TibiaFRBL.stl
+[2.258s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/torto_Body.stl
+[2.274s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/torto_detoid_FLBR.stl
+[2.293s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/torto_detoid_FRBL.stl
+[2.310s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/torto_femur_FLBR.stl
+[2.328s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/torto_femur_FRBL.stl
+[2.344s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/torto_hamquad_FLBR.stl
+[2.361s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/torto_hamquad_FRBL.stl
+[2.377s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/torto_hip_FLBR.stl
+[2.397s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/torto_hip_FRBL.stl
+[2.416s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/torto_servo_arm.stl
+[2.435s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/torto_tibia_FLBR.stl
+[2.450s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/torto_tibia_FRBL.stl
+[2.466s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/sensors/torto_MPU6050.stl
+[2.480s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/sensors/torto_YDLidarX3.stl
+[2.498s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//rviz/urdf_config.rviz
+[2.515s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/ament_index/resource_index/package_run_dependencies/torto_description
+[2.532s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/ament_index/resource_index/parent_prefix_path/torto_description
+[2.551s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/environment/ament_prefix_path.sh
+[2.567s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/environment/ament_prefix_path.dsv
+[2.581s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/environment/path.sh
+[2.593s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/environment/path.dsv
+[2.607s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/local_setup.bash
+[2.620s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/local_setup.sh
+[2.633s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/local_setup.zsh
+[2.647s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/local_setup.dsv
+[2.661s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/package.dsv
+[2.674s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/ament_index/resource_index/packages/torto_description
+[2.688s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/cmake/torto_descriptionConfig.cmake
+[2.702s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/cmake/torto_descriptionConfig-version.cmake
+[2.720s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/package.xml
+[2.743s] Invoked command in '/home/sirapob/TORTO_NvidiaSim/build/torto_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/opt/ros/humble /usr/bin/cmake --install /home/sirapob/TORTO_NvidiaSim/build/torto_description

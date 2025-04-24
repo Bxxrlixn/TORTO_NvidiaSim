@@ -1,1 +1,3 @@
 /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_adapter/torto_interfaces:msg/TortoJointAngles.idl
+/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_adapter/torto_interfaces:msg/TortoCtrlParams.idl
+/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_adapter/torto_interfaces:msg/TortoSimReset.idl

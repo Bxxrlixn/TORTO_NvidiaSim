@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating torto_ctrl.egg-info
+writing torto_ctrl.egg-info/PKG-INFO
+writing dependency_links to torto_ctrl.egg-info/dependency_links.txt
+writing entry points to torto_ctrl.egg-info/entry_points.txt
+writing requirements to torto_ctrl.egg-info/requires.txt
+writing top-level names to torto_ctrl.egg-info/top_level.txt
+writing manifest file 'torto_ctrl.egg-info/SOURCES.txt'
+reading manifest file 'torto_ctrl.egg-info/SOURCES.txt'
+writing manifest file 'torto_ctrl.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/lib/python3.10/site-packages/torto-ctrl.egg-link (link to .)
+Installing torto_controller_node script to /home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/lib/torto_ctrl
+
+Installed /home/sirapob/TORTO_NvidiaSim/build/torto_ctrl
+running symlink_data
+creating /home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/share/ament_index
+creating /home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/share/ament_index/resource_index
+creating /home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/share/ament_index/resource_index/packages
+symbolically linking /home/sirapob/TORTO_NvidiaSim/build/torto_ctrl/resource/torto_ctrl -> /home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/share/ament_index/resource_index/packages
+symbolically linking /home/sirapob/TORTO_NvidiaSim/build/torto_ctrl/package.xml -> /home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/share/torto_ctrl

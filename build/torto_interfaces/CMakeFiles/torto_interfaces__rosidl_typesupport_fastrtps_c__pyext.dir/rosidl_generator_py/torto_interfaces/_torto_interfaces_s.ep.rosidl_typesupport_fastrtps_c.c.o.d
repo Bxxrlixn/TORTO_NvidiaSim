@@ -204,4 +204,12 @@ CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_gen
  /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__type_support.h \
  /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/rosidl_generator_c__visibility_control.h \
  /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__struct.h \
- /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__functions.h
+ /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__functions.h \
+ /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.h \
+ /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__struct.h \
+ /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.h \
+ /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/detail/torto_sim_reset__type_support.h \
+ /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/detail/torto_sim_reset__struct.h \
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+ /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_c/torto_interfaces/msg/detail/torto_sim_reset__functions.h

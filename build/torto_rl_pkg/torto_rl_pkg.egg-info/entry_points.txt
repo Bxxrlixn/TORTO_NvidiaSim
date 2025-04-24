@@ -1,0 +1,4 @@
+[console_scripts]
+torto_controller_node = torto_rl_pkg.torto_controller_node:main
+torto_ros_bridge = torto_rl_pkg.torto_ros_bridge:main
+

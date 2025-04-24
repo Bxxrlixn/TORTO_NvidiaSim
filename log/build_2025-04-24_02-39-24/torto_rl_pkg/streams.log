@@ -1,0 +1,17 @@
+[1.429s] Invoking command in '/home/sirapob/TORTO_NvidiaSim/build/torto_rl_pkg': PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_rl_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/TORTO_NvidiaSim/build/torto_rl_pkg/build --no-deps symlink_data
+[2.220s] running develop
+[2.691s] running egg_info
+[2.695s] writing torto_rl_pkg.egg-info/PKG-INFO
+[2.695s] writing dependency_links to torto_rl_pkg.egg-info/dependency_links.txt
+[2.695s] writing entry points to torto_rl_pkg.egg-info/entry_points.txt
+[2.696s] writing requirements to torto_rl_pkg.egg-info/requires.txt
+[2.696s] writing top-level names to torto_rl_pkg.egg-info/top_level.txt
+[2.697s] reading manifest file 'torto_rl_pkg.egg-info/SOURCES.txt'
+[2.698s] writing manifest file 'torto_rl_pkg.egg-info/SOURCES.txt'
+[2.701s] running build_ext
+[2.702s] Creating /home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/lib/python3.10/site-packages/torto-rl-pkg.egg-link (link to .)
+[2.703s] Installing torto_controller_node script to /home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/lib/torto_rl_pkg
+[2.704s] 
+[2.704s] Installed /home/sirapob/TORTO_NvidiaSim/build/torto_rl_pkg
+[2.705s] running symlink_data
+[2.760s] Invoked command in '/home/sirapob/TORTO_NvidiaSim/build/torto_rl_pkg' returned '0': PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_rl_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/TORTO_NvidiaSim/build/torto_rl_pkg/build --no-deps symlink_data

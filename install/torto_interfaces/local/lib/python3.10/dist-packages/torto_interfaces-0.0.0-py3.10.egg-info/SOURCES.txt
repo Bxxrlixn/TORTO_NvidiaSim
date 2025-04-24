@@ -1,6 +1,1 @@
-setup.py
-torto_interfaces/__init__.py
-torto_interfaces.egg-info/PKG-INFO
-torto_interfaces.egg-info/SOURCES.txt
-torto_interfaces.egg-info/dependency_links.txt
-torto_interfaces.egg-info/top_level.txt
+/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/ament_cmake_python/torto_interfaces/torto_interfaces.egg-info/SOURCES.txt

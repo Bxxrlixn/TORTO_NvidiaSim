@@ -1,0 +1,25 @@
+[2.806s] Invoking command in '/home/sirapob/TORTO_NvidiaSim/build/torto_hardware': PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/TORTO_NvidiaSim/build/torto_hardware/build --no-deps symlink_data
+[3.474s] running develop
+[3.965s] running egg_info
+[3.966s] creating torto_hardware.egg-info
+[3.966s] writing torto_hardware.egg-info/PKG-INFO
+[3.972s] writing dependency_links to torto_hardware.egg-info/dependency_links.txt
+[3.972s] writing entry points to torto_hardware.egg-info/entry_points.txt
+[3.972s] writing requirements to torto_hardware.egg-info/requires.txt
+[3.973s] writing top-level names to torto_hardware.egg-info/top_level.txt
+[3.973s] writing manifest file 'torto_hardware.egg-info/SOURCES.txt'
+[3.976s] reading manifest file 'torto_hardware.egg-info/SOURCES.txt'
+[3.979s] writing manifest file 'torto_hardware.egg-info/SOURCES.txt'
+[3.980s] running build_ext
+[3.981s] Creating /home/sirapob/TORTO_NvidiaSim/install/torto_hardware/lib/python3.10/site-packages/torto-hardware.egg-link (link to .)
+[3.983s] Installing arduino_serial_node script to /home/sirapob/TORTO_NvidiaSim/install/torto_hardware/lib/torto_hardware
+[3.984s] Installing lidar_scan2cloud_node script to /home/sirapob/TORTO_NvidiaSim/install/torto_hardware/lib/torto_hardware
+[3.984s] 
+[3.985s] Installed /home/sirapob/TORTO_NvidiaSim/build/torto_hardware
+[3.985s] running symlink_data
+[3.986s] creating /home/sirapob/TORTO_NvidiaSim/install/torto_hardware/share/ament_index
+[3.986s] creating /home/sirapob/TORTO_NvidiaSim/install/torto_hardware/share/ament_index/resource_index
+[3.987s] creating /home/sirapob/TORTO_NvidiaSim/install/torto_hardware/share/ament_index/resource_index/packages
+[3.987s] symbolically linking /home/sirapob/TORTO_NvidiaSim/build/torto_hardware/resource/torto_hardware -> /home/sirapob/TORTO_NvidiaSim/install/torto_hardware/share/ament_index/resource_index/packages
+[3.988s] symbolically linking /home/sirapob/TORTO_NvidiaSim/build/torto_hardware/package.xml -> /home/sirapob/TORTO_NvidiaSim/install/torto_hardware/share/torto_hardware
+[4.053s] Invoked command in '/home/sirapob/TORTO_NvidiaSim/build/torto_hardware' returned '0': PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/TORTO_NvidiaSim/build/torto_hardware/build --no-deps symlink_data

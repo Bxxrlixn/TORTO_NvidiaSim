@@ -361,8 +361,20 @@ include("/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/ament_cmake_symlin
 # install(FILES "/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_adapter/torto_interfaces/msg/TortoJointAngles.idl" "DESTINATION" "share/torto_interfaces/msg")
 ament_cmake_symlink_install_files("/home/sirapob/TORTO_NvidiaSim/src/torto_interfaces" FILES "/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_adapter/torto_interfaces/msg/TortoJointAngles.idl" "DESTINATION" "share/torto_interfaces/msg")
 
+# install(FILES "/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_adapter/torto_interfaces/msg/TortoCtrlParams.idl" "DESTINATION" "share/torto_interfaces/msg")
+ament_cmake_symlink_install_files("/home/sirapob/TORTO_NvidiaSim/src/torto_interfaces" FILES "/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_adapter/torto_interfaces/msg/TortoCtrlParams.idl" "DESTINATION" "share/torto_interfaces/msg")
+
+# install(FILES "/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_adapter/torto_interfaces/msg/TortoSimReset.idl" "DESTINATION" "share/torto_interfaces/msg")
+ament_cmake_symlink_install_files("/home/sirapob/TORTO_NvidiaSim/src/torto_interfaces" FILES "/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_adapter/torto_interfaces/msg/TortoSimReset.idl" "DESTINATION" "share/torto_interfaces/msg")
+
 # install(FILES "/home/sirapob/TORTO_NvidiaSim/src/torto_interfaces/msg/TortoJointAngles.msg" "DESTINATION" "share/torto_interfaces/msg")
 ament_cmake_symlink_install_files("/home/sirapob/TORTO_NvidiaSim/src/torto_interfaces" FILES "/home/sirapob/TORTO_NvidiaSim/src/torto_interfaces/msg/TortoJointAngles.msg" "DESTINATION" "share/torto_interfaces/msg")
+
+# install(FILES "/home/sirapob/TORTO_NvidiaSim/src/torto_interfaces/msg/TortoCtrlParams.msg" "DESTINATION" "share/torto_interfaces/msg")
+ament_cmake_symlink_install_files("/home/sirapob/TORTO_NvidiaSim/src/torto_interfaces" FILES "/home/sirapob/TORTO_NvidiaSim/src/torto_interfaces/msg/TortoCtrlParams.msg" "DESTINATION" "share/torto_interfaces/msg")
+
+# install(FILES "/home/sirapob/TORTO_NvidiaSim/src/torto_interfaces/msg/TortoSimReset.msg" "DESTINATION" "share/torto_interfaces/msg")
+ament_cmake_symlink_install_files("/home/sirapob/TORTO_NvidiaSim/src/torto_interfaces" FILES "/home/sirapob/TORTO_NvidiaSim/src/torto_interfaces/msg/TortoSimReset.msg" "DESTINATION" "share/torto_interfaces/msg")
 
 # install(FILES "/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/torto_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/sirapob/TORTO_NvidiaSim/src/torto_interfaces" FILES "/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/torto_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

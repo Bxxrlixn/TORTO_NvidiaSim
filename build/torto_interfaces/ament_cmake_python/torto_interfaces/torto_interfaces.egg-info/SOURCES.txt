@@ -4,3 +4,6 @@ torto_interfaces.egg-info/PKG-INFO
 torto_interfaces.egg-info/SOURCES.txt
 torto_interfaces.egg-info/dependency_links.txt
 torto_interfaces.egg-info/top_level.txt
+torto_interfaces/msg/__init__.py
+torto_interfaces/msg/_torto_ctrl_params.py
+torto_interfaces/msg/_torto_joint_angles.py

@@ -15,8 +15,12 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_py/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_c.c" "/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_py/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_py/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_introspection_c.c" "/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_py/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_py/torto_interfaces/msg/__init__.py" "/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_py/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_py/torto_interfaces/msg/_torto_ctrl_params.py" "/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_py/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_py/torto_interfaces/msg/_torto_ctrl_params_s.c" "/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_py/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_py/torto_interfaces/msg/_torto_joint_angles.py" "/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_py/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_py/torto_interfaces/msg/_torto_joint_angles_s.c" "/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_py/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_py/torto_interfaces/msg/_torto_sim_reset.py" "/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_py/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_py/torto_interfaces/msg/_torto_sim_reset_s.c" "/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces/rosidl_generator_py/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

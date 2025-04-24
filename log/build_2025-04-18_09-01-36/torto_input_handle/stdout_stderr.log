@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating torto_input_handle.egg-info
+writing torto_input_handle.egg-info/PKG-INFO
+writing dependency_links to torto_input_handle.egg-info/dependency_links.txt
+writing entry points to torto_input_handle.egg-info/entry_points.txt
+writing requirements to torto_input_handle.egg-info/requires.txt
+writing top-level names to torto_input_handle.egg-info/top_level.txt
+writing manifest file 'torto_input_handle.egg-info/SOURCES.txt'
+reading manifest file 'torto_input_handle.egg-info/SOURCES.txt'
+writing manifest file 'torto_input_handle.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/lib/python3.10/site-packages/torto-input-handle.egg-link (link to .)
+Installing ps5_ctrl_params_node script to /home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/lib/torto_input_handle
+
+Installed /home/sirapob/TORTO_NvidiaSim/build/torto_input_handle
+running symlink_data
+creating /home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/share/ament_index
+creating /home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/share/ament_index/resource_index
+creating /home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/share/ament_index/resource_index/packages
+symbolically linking /home/sirapob/TORTO_NvidiaSim/build/torto_input_handle/resource/torto_input_handle -> /home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/share/ament_index/resource_index/packages
+symbolically linking /home/sirapob/TORTO_NvidiaSim/build/torto_input_handle/package.xml -> /home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/share/torto_input_handle

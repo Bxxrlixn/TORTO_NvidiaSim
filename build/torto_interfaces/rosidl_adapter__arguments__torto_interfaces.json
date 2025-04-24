@@ -1,6 +1,8 @@
 {
   "package_name": "torto_interfaces",
   "non_idl_tuples": [
-    "/home/sirapob/TORTO_NvidiaSim/src/torto_interfaces:msg/TortoJointAngles.msg"
+    "/home/sirapob/TORTO_NvidiaSim/src/torto_interfaces:msg/TortoJointAngles.msg",
+    "/home/sirapob/TORTO_NvidiaSim/src/torto_interfaces:msg/TortoCtrlParams.msg",
+    "/home/sirapob/TORTO_NvidiaSim/src/torto_interfaces:msg/TortoSimReset.msg"
   ]
 }

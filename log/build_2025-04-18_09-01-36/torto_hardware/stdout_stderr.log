@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating torto_hardware.egg-info
+writing torto_hardware.egg-info/PKG-INFO
+writing dependency_links to torto_hardware.egg-info/dependency_links.txt
+writing entry points to torto_hardware.egg-info/entry_points.txt
+writing requirements to torto_hardware.egg-info/requires.txt
+writing top-level names to torto_hardware.egg-info/top_level.txt
+writing manifest file 'torto_hardware.egg-info/SOURCES.txt'
+reading manifest file 'torto_hardware.egg-info/SOURCES.txt'
+writing manifest file 'torto_hardware.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sirapob/TORTO_NvidiaSim/install/torto_hardware/lib/python3.10/site-packages/torto-hardware.egg-link (link to .)
+Installing arduino_serial_node script to /home/sirapob/TORTO_NvidiaSim/install/torto_hardware/lib/torto_hardware
+Installing lidar_scan2cloud_node script to /home/sirapob/TORTO_NvidiaSim/install/torto_hardware/lib/torto_hardware
+
+Installed /home/sirapob/TORTO_NvidiaSim/build/torto_hardware
+running symlink_data
+creating /home/sirapob/TORTO_NvidiaSim/install/torto_hardware/share/ament_index
+creating /home/sirapob/TORTO_NvidiaSim/install/torto_hardware/share/ament_index/resource_index
+creating /home/sirapob/TORTO_NvidiaSim/install/torto_hardware/share/ament_index/resource_index/packages
+symbolically linking /home/sirapob/TORTO_NvidiaSim/build/torto_hardware/resource/torto_hardware -> /home/sirapob/TORTO_NvidiaSim/install/torto_hardware/share/ament_index/resource_index/packages
+symbolically linking /home/sirapob/TORTO_NvidiaSim/build/torto_hardware/package.xml -> /home/sirapob/TORTO_NvidiaSim/install/torto_hardware/share/torto_hardware
