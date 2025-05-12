@@ -1,0 +1,250 @@
+[0.099s] Invoking command in '/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble /usr/bin/cmake /home/sirapob/TORTO_NvidiaSim/src/torto_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces
+[4.890s] -- The C compiler identification is GNU 11.4.0
+[4.891s] -- The CXX compiler identification is GNU 11.4.0
+[4.891s] -- Detecting C compiler ABI info
+[4.892s] -- Detecting C compiler ABI info - done
+[4.896s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.896s] -- Detecting C compile features
+[4.897s] -- Detecting C compile features - done
+[4.897s] -- Detecting CXX compiler ABI info
+[4.897s] -- Detecting CXX compiler ABI info - done
+[4.897s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.898s] -- Detecting CXX compile features
+[4.898s] -- Detecting CXX compile features - done
+[4.898s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.901s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.901s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.903s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.903s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.903s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.904s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.904s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.904s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.904s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.904s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.905s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.905s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.905s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.905s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.905s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.906s] -- Found PythonExtra: .so  
+[4.906s] -- Configuring done
+[4.906s] -- Generating done
+[4.906s] -- Build files have been written to: /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces
+[4.933s] Invoked command in '/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble /usr/bin/cmake /home/sirapob/TORTO_NvidiaSim/src/torto_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces
+[4.935s] Invoking command in '/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble /usr/bin/cmake --build /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces -- -j16 -l16
+[5.080s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.111s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.147s] [  4%] Built target ament_cmake_python_symlink_torto_interfaces
+[6.378s] running egg_info
+[6.381s] creating torto_interfaces.egg-info
+[6.382s] writing torto_interfaces.egg-info/PKG-INFO
+[6.383s] writing dependency_links to torto_interfaces.egg-info/dependency_links.txt
+[6.383s] writing top-level names to torto_interfaces.egg-info/top_level.txt
+[6.384s] writing manifest file 'torto_interfaces.egg-info/SOURCES.txt'
+[6.395s] reading manifest file 'torto_interfaces.egg-info/SOURCES.txt'
+[6.397s] writing manifest file 'torto_interfaces.egg-info/SOURCES.txt'
+[6.513s] [  4%] Built target ament_cmake_python_build_torto_interfaces_egg
+[7.366s] [  4%] Built target torto_interfaces__cpp
+[7.414s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.418s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.433s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.623s] [ 12%] [32mBuilding C object CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__functions.c.o[0m
+[7.635s] [ 14%] [32mBuilding C object CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.c.o[0m
+[7.641s] [ 17%] [32mBuilding C object CMakeFiles/torto_interfaces__rosidl_generator_c.dir/rosidl_generator_c/torto_interfaces/msg/detail/torto_sim_reset__functions.c.o[0m
+[7.979s] [ 19%] [32m[1mLinking C shared library libtorto_interfaces__rosidl_generator_c.so[0m
+[8.169s] [ 19%] Built target torto_interfaces__rosidl_generator_c
+[8.213s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.213s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.215s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.551s] [ 27%] [32mBuilding CXX object CMakeFiles/torto_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/torto_interfaces/msg/torto_joint_angles__type_support.cpp.o[0m
+[9.563s] [ 29%] [32mBuilding CXX object CMakeFiles/torto_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/torto_interfaces/msg/torto_ctrl_params__type_support.cpp.o[0m
+[9.564s] [ 31%] [32mBuilding CXX object CMakeFiles/torto_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/torto_interfaces/msg/torto_sim_reset__type_support.cpp.o[0m
+[9.581s] [ 36%] [32mBuilding CXX object CMakeFiles/torto_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/torto_interfaces/msg/detail/torto_ctrl_params__type_support.cpp.o[0m
+[9.583s] [ 36%] [32mBuilding CXX object CMakeFiles/torto_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/torto_interfaces/msg/detail/torto_joint_angles__type_support.cpp.o[0m
+[9.594s] [ 38%] [32mBuilding CXX object CMakeFiles/torto_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/torto_interfaces/msg/detail/torto_sim_reset__type_support.cpp.o[0m
+[9.940s] [ 40%] [32mBuilding CXX object CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/torto_interfaces/msg/detail/dds_fastrtps/torto_joint_angles__type_support.cpp.o[0m
+[9.950s] [ 42%] [32mBuilding CXX object CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/torto_interfaces/msg/detail/dds_fastrtps/torto_ctrl_params__type_support.cpp.o[0m
+[9.950s] [ 44%] [32mBuilding CXX object CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/torto_interfaces/msg/detail/dds_fastrtps/torto_sim_reset__type_support.cpp.o[0m
+[10.338s] [ 46%] [32mBuilding CXX object CMakeFiles/torto_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/torto_interfaces/msg/torto_joint_angles__type_support.cpp.o[0m
+[10.343s] [ 48%] [32mBuilding CXX object CMakeFiles/torto_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/torto_interfaces/msg/torto_sim_reset__type_support.cpp.o[0m
+[10.350s] [ 51%] [32mBuilding CXX object CMakeFiles/torto_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/torto_interfaces/msg/torto_ctrl_params__type_support.cpp.o[0m
+[10.522s] [ 53%] [32m[1mLinking CXX shared library libtorto_interfaces__rosidl_typesupport_c.so[0m
+[10.666s] [ 55%] [32mBuilding C object CMakeFiles/torto_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.c.o[0m
+[10.676s] [ 57%] [32mBuilding C object CMakeFiles/torto_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/torto_interfaces/msg/detail/torto_joint_angles__type_support.c.o[0m
+[10.676s] [ 59%] [32mBuilding C object CMakeFiles/torto_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/torto_interfaces/msg/detail/torto_sim_reset__type_support.c.o[0m
+[10.762s] [ 59%] Built target torto_interfaces__rosidl_typesupport_c
+[10.896s] [ 61%] [32m[1mLinking C shared library libtorto_interfaces__rosidl_typesupport_introspection_c.so[0m
+[10.985s] [ 63%] [32mBuilding CXX object CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_joint_angles__type_support_c.cpp.o[0m
+[11.002s] [ 65%] [32mBuilding CXX object CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_sim_reset__type_support_c.cpp.o[0m
+[11.035s] [ 68%] [32mBuilding CXX object CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support_c.cpp.o[0m
+[11.063s] [ 68%] Built target torto_interfaces__rosidl_typesupport_introspection_c
+[11.268s] [ 70%] [32m[1mLinking CXX shared library libtorto_interfaces__rosidl_typesupport_cpp.so[0m
+[11.463s] [ 70%] Built target torto_interfaces__rosidl_typesupport_cpp
+[11.857s] [ 72%] [32m[1mLinking CXX shared library libtorto_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[12.077s] [ 72%] Built target torto_interfaces__rosidl_typesupport_introspection_cpp
+[12.137s] [ 74%] [32m[1mLinking CXX shared library libtorto_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.385s] [ 74%] Built target torto_interfaces__rosidl_typesupport_fastrtps_cpp
+[12.487s] [ 76%] [32m[1mLinking CXX shared library libtorto_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[12.695s] [ 76%] Built target torto_interfaces__rosidl_typesupport_fastrtps_c
+[12.752s] [ 76%] Built target torto_interfaces
+[12.807s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[15.061s] [ 78%] Built target torto_interfaces__py
+[15.105s] [ 80%] [32mBuilding C object CMakeFiles/torto_interfaces__rosidl_generator_py.dir/rosidl_generator_py/torto_interfaces/msg/_torto_ctrl_params_s.c.o[0m
+[15.105s] [ 82%] [32mBuilding C object CMakeFiles/torto_interfaces__rosidl_generator_py.dir/rosidl_generator_py/torto_interfaces/msg/_torto_joint_angles_s.c.o[0m
+[15.113s] [ 85%] [32mBuilding C object CMakeFiles/torto_interfaces__rosidl_generator_py.dir/rosidl_generator_py/torto_interfaces/msg/_torto_sim_reset_s.c.o[0m
+[15.462s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/torto_interfaces/libtorto_interfaces__rosidl_generator_py.so[0m
+[15.554s] [ 87%] Built target torto_interfaces__rosidl_generator_py
+[15.600s] [ 89%] [32mBuilding C object CMakeFiles/torto_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.601s] [ 91%] [32mBuilding C object CMakeFiles/torto_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.603s] [ 93%] [32mBuilding C object CMakeFiles/torto_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[15.884s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/torto_interfaces/torto_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.896s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/torto_interfaces/torto_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.910s] [100%] [32m[1mLinking C shared library rosidl_generator_py/torto_interfaces/torto_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.975s] [100%] Built target torto_interfaces__rosidl_typesupport_c__pyext
+[15.985s] [100%] Built target torto_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[15.993s] [100%] Built target torto_interfaces__rosidl_typesupport_introspection_c__pyext
+[16.026s] Invoked command in '/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble /usr/bin/cmake --build /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces -- -j16 -l16
+[16.028s] Invoking command in '/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble /usr/bin/cmake --install /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces
+[16.042s] -- Install configuration: ""
+[16.044s] -- Execute custom install script
+[16.045s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/ament_index/resource_index/rosidl_interfaces/torto_interfaces
+[16.066s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_ctrl_params__functions.h
+[16.087s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_ctrl_params__struct.h
+[16.108s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_ctrl_params__type_support.h
+[16.128s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__functions.h
+[16.146s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__struct.h
+[16.164s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__type_support.h
+[16.182s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_sim_reset__functions.h
+[16.201s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_sim_reset__struct.h
+[16.221s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_sim_reset__type_support.h
+[16.239s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/rosidl_generator_c__visibility_control.h
+[16.259s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/torto_ctrl_params.h
+[16.283s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/torto_joint_angles.h
+[16.310s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/torto_sim_reset.h
+[16.331s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/environment/library_path.sh
+[16.351s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/environment/library_path.dsv
+[16.371s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_ctrl_params__rosidl_typesupport_fastrtps_c.h
+[16.391s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__rosidl_typesupport_fastrtps_c.h
+[16.415s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_sim_reset__rosidl_typesupport_fastrtps_c.h
+[16.436s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.455s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_ctrl_params__rosidl_typesupport_introspection_c.h
+[16.473s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__rosidl_typesupport_introspection_c.h
+[16.492s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_sim_reset__rosidl_typesupport_introspection_c.h
+[16.513s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.534s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_ctrl_params__builder.hpp
+[16.552s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_ctrl_params__struct.hpp
+[16.571s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_ctrl_params__traits.hpp
+[16.590s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_ctrl_params__type_support.hpp
+[16.609s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__builder.hpp
+[16.631s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__struct.hpp
+[16.648s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__traits.hpp
+[16.667s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__type_support.hpp
+[16.686s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_sim_reset__builder.hpp
+[16.706s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_sim_reset__struct.hpp
+[16.724s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_sim_reset__traits.hpp
+[16.739s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_sim_reset__type_support.hpp
+[16.753s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[16.766s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/torto_ctrl_params.hpp
+[16.779s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/torto_joint_angles.hpp
+[16.794s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/torto_sim_reset.hpp
+[16.808s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_ctrl_params__rosidl_typesupport_fastrtps_cpp.hpp
+[16.824s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[16.839s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_sim_reset__rosidl_typesupport_fastrtps_cpp.hpp
+[16.857s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.873s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_ctrl_params__rosidl_typesupport_introspection_cpp.hpp
+[16.888s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_joint_angles__rosidl_typesupport_introspection_cpp.hpp
+[16.905s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/include/torto_interfaces/torto_interfaces/msg/detail/torto_sim_reset__rosidl_typesupport_introspection_cpp.hpp
+[16.922s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/environment/pythonpath.sh
+[16.938s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/environment/pythonpath.dsv
+[16.955s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[16.972s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[16.989s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[17.008s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[17.028s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces/__init__.py
+[17.047s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_c.c
+[17.063s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[17.083s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[17.102s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces/libtorto_interfaces__rosidl_generator_py.so
+[17.119s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces/msg/__init__.py
+[17.136s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces/msg/_torto_ctrl_params.py
+[17.152s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces/msg/_torto_ctrl_params_s.c
+[17.171s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces/msg/_torto_joint_angles.py
+[17.185s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces/msg/_torto_joint_angles_s.c
+[17.202s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces/msg/_torto_sim_reset.py
+[17.222s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces/msg/_torto_sim_reset_s.c
+[17.243s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces/torto_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[17.261s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces/torto_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[17.279s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces/torto_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[17.299s] -- Up-to-date symlink: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces/torto_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[17.300s] -- Up-to-date symlink: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces/torto_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[17.301s] -- Up-to-date symlink: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces/torto_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[17.301s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/msg/TortoJointAngles.idl
+[17.317s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/msg/TortoCtrlParams.idl
+[17.334s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/msg/TortoSimReset.idl
+[17.353s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/msg/TortoJointAngles.msg
+[17.371s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/msg/TortoCtrlParams.msg
+[17.394s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/msg/TortoSimReset.msg
+[17.417s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/ament_index/resource_index/package_run_dependencies/torto_interfaces
+[17.441s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/ament_index/resource_index/parent_prefix_path/torto_interfaces
+[17.465s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/environment/ament_prefix_path.sh
+[17.488s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/environment/ament_prefix_path.dsv
+[17.508s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/environment/path.sh
+[17.526s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/environment/path.dsv
+[17.553s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/local_setup.bash
+[17.571s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/local_setup.sh
+[17.592s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/local_setup.zsh
+[17.615s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/local_setup.dsv
+[17.637s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/package.dsv
+[17.656s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/ament_index/resource_index/packages/torto_interfaces
+[17.681s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/cmake/rosidl_cmake-extras.cmake
+[17.695s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.711s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[17.728s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[17.745s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[17.763s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.780s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[17.798s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfacesConfig.cmake
+[17.817s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfacesConfig-version.cmake
+[17.846s] -- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/package.xml
+[17.870s] -- Installing: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/lib/libtorto_interfaces__rosidl_generator_c.so
+[17.871s] -- Set runtime path of "/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/lib/libtorto_interfaces__rosidl_generator_c.so" to ""
+[17.871s] -- Installing: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_fastrtps_c.so
+[17.872s] -- Set runtime path of "/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[17.872s] -- Installing: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_introspection_c.so
+[17.873s] -- Set runtime path of "/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[17.873s] -- Installing: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_c.so
+[17.874s] -- Set runtime path of "/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_c.so" to ""
+[17.874s] -- Installing: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[17.875s] -- Set runtime path of "/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[17.875s] -- Installing: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_introspection_cpp.so
+[17.876s] -- Set runtime path of "/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[17.877s] -- Installing: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_cpp.so
+[17.877s] -- Set runtime path of "/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/lib/libtorto_interfaces__rosidl_typesupport_cpp.so" to ""
+[17.987s] Listing '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces'...
+[17.987s] Compiling '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces/__init__.py'...
+[17.987s] Listing '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces/msg'...
+[17.987s] Compiling '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces/msg/__init__.py'...
+[17.988s] Compiling '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces/msg/_torto_ctrl_params.py'...
+[17.988s] Compiling '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces/msg/_torto_joint_angles.py'...
+[17.988s] Compiling '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages/torto_interfaces/msg/_torto_sim_reset.py'...
+[18.000s] -- Installing: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/lib/libtorto_interfaces__rosidl_generator_py.so
+[18.001s] -- Set runtime path of "/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/lib/libtorto_interfaces__rosidl_generator_py.so" to ""
+[18.001s] -- Installing: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/cmake/export_torto_interfaces__rosidl_generator_cExport.cmake
+[18.001s] -- Installing: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/cmake/export_torto_interfaces__rosidl_generator_cExport-noconfig.cmake
+[18.002s] -- Installing: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/cmake/export_torto_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[18.002s] -- Installing: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/cmake/export_torto_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[18.002s] -- Installing: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[18.003s] -- Installing: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[18.003s] -- Installing: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfaces__rosidl_typesupport_cExport.cmake
+[18.003s] -- Installing: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[18.003s] -- Installing: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/cmake/export_torto_interfaces__rosidl_generator_cppExport.cmake
+[18.004s] -- Installing: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/cmake/export_torto_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[18.004s] -- Installing: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/cmake/export_torto_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[18.004s] -- Installing: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[18.005s] -- Installing: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[18.005s] -- Installing: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfaces__rosidl_typesupport_cppExport.cmake
+[18.005s] -- Installing: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/cmake/torto_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[18.006s] -- Installing: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/cmake/export_torto_interfaces__rosidl_generator_pyExport.cmake
+[18.006s] -- Installing: /home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/cmake/export_torto_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[18.011s] Invoked command in '/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble /usr/bin/cmake --install /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces

@@ -1,0 +1,616 @@
+[0.305s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.305s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7c017165f880>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c017165f280>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c017165f280>>, mixin_verb=('build',))
+[0.756s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.756s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.756s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.756s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.756s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.757s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.757s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sirapob/TORTO_NvidiaSim'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.757s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.758s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.780s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_bringup) by extension 'ignore'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_bringup) by extension 'ignore_ament_install'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_bringup) by extensions ['colcon_pkg']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_bringup) by extension 'colcon_pkg'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_bringup) by extensions ['colcon_meta']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_bringup) by extension 'colcon_meta'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_bringup) by extensions ['ros']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_bringup) by extension 'ros'
+[0.790s] DEBUG:colcon.colcon_core.package_identification:Package 'src/torto_bringup' with type 'ros.ament_cmake' and name 'torto_bringup'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_ctrl) by extensions ['ignore', 'ignore_ament_install']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_ctrl) by extension 'ignore'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_ctrl) by extension 'ignore_ament_install'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_ctrl) by extensions ['colcon_pkg']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_ctrl) by extension 'colcon_pkg'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_ctrl) by extensions ['colcon_meta']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_ctrl) by extension 'colcon_meta'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_ctrl) by extensions ['ros']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_ctrl) by extension 'ros'
+[0.792s] DEBUG:colcon.colcon_core.package_identification:Package 'src/torto_ctrl' with type 'ros.ament_python' and name 'torto_ctrl'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_description) by extensions ['ignore', 'ignore_ament_install']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_description) by extension 'ignore'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_description) by extension 'ignore_ament_install'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_description) by extensions ['colcon_pkg']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_description) by extension 'colcon_pkg'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_description) by extensions ['colcon_meta']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_description) by extension 'colcon_meta'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_description) by extensions ['ros']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_description) by extension 'ros'
+[0.794s] DEBUG:colcon.colcon_core.package_identification:Package 'src/torto_description' with type 'ros.ament_cmake' and name 'torto_description'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_hardware) by extension 'ignore'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_hardware) by extension 'ignore_ament_install'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_hardware) by extensions ['colcon_pkg']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_hardware) by extension 'colcon_pkg'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_hardware) by extensions ['colcon_meta']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_hardware) by extension 'colcon_meta'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_hardware) by extensions ['ros']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_hardware) by extension 'ros'
+[0.796s] DEBUG:colcon.colcon_core.package_identification:Package 'src/torto_hardware' with type 'ros.ament_python' and name 'torto_hardware'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_input_handle) by extensions ['ignore', 'ignore_ament_install']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_input_handle) by extension 'ignore'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_input_handle) by extension 'ignore_ament_install'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_input_handle) by extensions ['colcon_pkg']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_input_handle) by extension 'colcon_pkg'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_input_handle) by extensions ['colcon_meta']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_input_handle) by extension 'colcon_meta'
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_input_handle) by extensions ['ros']
+[0.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_input_handle) by extension 'ros'
+[0.798s] DEBUG:colcon.colcon_core.package_identification:Package 'src/torto_input_handle' with type 'ros.ament_python' and name 'torto_input_handle'
+[0.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_interfaces) by extension 'ignore'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_interfaces) by extension 'ignore_ament_install'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_interfaces) by extensions ['colcon_pkg']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_interfaces) by extension 'colcon_pkg'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_interfaces) by extensions ['colcon_meta']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_interfaces) by extension 'colcon_meta'
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_interfaces) by extensions ['ros']
+[0.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_interfaces) by extension 'ros'
+[0.801s] DEBUG:colcon.colcon_core.package_identification:Package 'src/torto_interfaces' with type 'ros.ament_cmake' and name 'torto_interfaces'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_odometry) by extension 'ignore'
+[0.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_odometry) by extension 'ignore_ament_install'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_odometry) by extensions ['colcon_pkg']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_odometry) by extension 'colcon_pkg'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_odometry) by extensions ['colcon_meta']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_odometry) by extension 'colcon_meta'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_odometry) by extensions ['ros']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_odometry) by extension 'ros'
+[0.804s] DEBUG:colcon.colcon_core.package_identification:Package 'src/torto_odometry' with type 'ros.ament_python' and name 'torto_odometry'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_rl_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_rl_pkg) by extension 'ignore'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_rl_pkg) by extension 'ignore_ament_install'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_rl_pkg) by extensions ['colcon_pkg']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_rl_pkg) by extension 'colcon_pkg'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_rl_pkg) by extensions ['colcon_meta']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_rl_pkg) by extension 'colcon_meta'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_rl_pkg) by extensions ['ros']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_rl_pkg) by extension 'ros'
+[0.806s] DEBUG:colcon.colcon_core.package_identification:Package 'src/torto_rl_pkg' with type 'ros.ament_python' and name 'torto_rl_pkg'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_sim_ctrl) by extensions ['ignore', 'ignore_ament_install']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_sim_ctrl) by extension 'ignore'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_sim_ctrl) by extension 'ignore_ament_install'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_sim_ctrl) by extensions ['colcon_pkg']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_sim_ctrl) by extension 'colcon_pkg'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_sim_ctrl) by extensions ['colcon_meta']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_sim_ctrl) by extension 'colcon_meta'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_sim_ctrl) by extensions ['ros']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/torto_sim_ctrl) by extension 'ros'
+[0.809s] DEBUG:colcon.colcon_core.package_identification:Package 'src/torto_sim_ctrl' with type 'ros.ament_python' and name 'torto_sim_ctrl'
+[0.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.809s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.867s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.867s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.867s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.868s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sirapob/TORTO_NvidiaSim/install/torto_odometry' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.868s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.868s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.868s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.868s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sirapob/TORTO_NvidiaSim/install/torto_hardware' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.868s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sirapob/TORTO_NvidiaSim/install/torto_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.868s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.868s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.868s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sirapob/TORTO_NvidiaSim/install/torto_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.869s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/sirapob/TORTO_NvidiaSim/install
+[0.870s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/sirapob/isaacsim/isaac_ros_ws/install
+[0.872s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 274 installed packages in /opt/ros/humble
+[0.875s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.984s] Level 5:colcon.colcon_core.verb:set package 'torto_description' build argument 'cmake_args' from command line to 'None'
+[0.984s] Level 5:colcon.colcon_core.verb:set package 'torto_description' build argument 'cmake_target' from command line to 'None'
+[0.984s] Level 5:colcon.colcon_core.verb:set package 'torto_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.984s] Level 5:colcon.colcon_core.verb:set package 'torto_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.984s] Level 5:colcon.colcon_core.verb:set package 'torto_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.985s] Level 5:colcon.colcon_core.verb:set package 'torto_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.985s] Level 5:colcon.colcon_core.verb:set package 'torto_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.985s] Level 5:colcon.colcon_core.verb:set package 'torto_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.985s] Level 5:colcon.colcon_core.verb:set package 'torto_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.985s] DEBUG:colcon.colcon_core.verb:Building package 'torto_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sirapob/TORTO_NvidiaSim/build/torto_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sirapob/TORTO_NvidiaSim/install/torto_description', 'merge_install': False, 'path': '/home/sirapob/TORTO_NvidiaSim/src/torto_description', 'symlink_install': True, 'test_result_base': None}
+[0.986s] Level 5:colcon.colcon_core.verb:set package 'torto_hardware' build argument 'cmake_args' from command line to 'None'
+[0.987s] Level 5:colcon.colcon_core.verb:set package 'torto_hardware' build argument 'cmake_target' from command line to 'None'
+[0.987s] Level 5:colcon.colcon_core.verb:set package 'torto_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.987s] Level 5:colcon.colcon_core.verb:set package 'torto_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.987s] Level 5:colcon.colcon_core.verb:set package 'torto_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.987s] Level 5:colcon.colcon_core.verb:set package 'torto_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.987s] Level 5:colcon.colcon_core.verb:set package 'torto_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.987s] Level 5:colcon.colcon_core.verb:set package 'torto_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.987s] Level 5:colcon.colcon_core.verb:set package 'torto_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.988s] DEBUG:colcon.colcon_core.verb:Building package 'torto_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sirapob/TORTO_NvidiaSim/build/torto_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sirapob/TORTO_NvidiaSim/install/torto_hardware', 'merge_install': False, 'path': '/home/sirapob/TORTO_NvidiaSim/src/torto_hardware', 'symlink_install': True, 'test_result_base': None}
+[0.989s] Level 5:colcon.colcon_core.verb:set package 'torto_input_handle' build argument 'cmake_args' from command line to 'None'
+[0.989s] Level 5:colcon.colcon_core.verb:set package 'torto_input_handle' build argument 'cmake_target' from command line to 'None'
+[0.989s] Level 5:colcon.colcon_core.verb:set package 'torto_input_handle' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.989s] Level 5:colcon.colcon_core.verb:set package 'torto_input_handle' build argument 'cmake_clean_cache' from command line to 'False'
+[0.989s] Level 5:colcon.colcon_core.verb:set package 'torto_input_handle' build argument 'cmake_clean_first' from command line to 'False'
+[0.990s] Level 5:colcon.colcon_core.verb:set package 'torto_input_handle' build argument 'cmake_force_configure' from command line to 'False'
+[0.990s] Level 5:colcon.colcon_core.verb:set package 'torto_input_handle' build argument 'ament_cmake_args' from command line to 'None'
+[0.990s] Level 5:colcon.colcon_core.verb:set package 'torto_input_handle' build argument 'catkin_cmake_args' from command line to 'None'
+[0.990s] Level 5:colcon.colcon_core.verb:set package 'torto_input_handle' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.990s] DEBUG:colcon.colcon_core.verb:Building package 'torto_input_handle' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sirapob/TORTO_NvidiaSim/build/torto_input_handle', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle', 'merge_install': False, 'path': '/home/sirapob/TORTO_NvidiaSim/src/torto_input_handle', 'symlink_install': True, 'test_result_base': None}
+[0.991s] Level 5:colcon.colcon_core.verb:set package 'torto_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.991s] Level 5:colcon.colcon_core.verb:set package 'torto_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'torto_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'torto_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'torto_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'torto_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'torto_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'torto_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'torto_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.992s] DEBUG:colcon.colcon_core.verb:Building package 'torto_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces', 'merge_install': False, 'path': '/home/sirapob/TORTO_NvidiaSim/src/torto_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.993s] Level 5:colcon.colcon_core.verb:set package 'torto_odometry' build argument 'cmake_args' from command line to 'None'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'torto_odometry' build argument 'cmake_target' from command line to 'None'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'torto_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'torto_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'torto_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'torto_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'torto_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'torto_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.994s] Level 5:colcon.colcon_core.verb:set package 'torto_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.994s] DEBUG:colcon.colcon_core.verb:Building package 'torto_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sirapob/TORTO_NvidiaSim/build/torto_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sirapob/TORTO_NvidiaSim/install/torto_odometry', 'merge_install': False, 'path': '/home/sirapob/TORTO_NvidiaSim/src/torto_odometry', 'symlink_install': True, 'test_result_base': None}
+[0.996s] Level 5:colcon.colcon_core.verb:set package 'torto_rl_pkg' build argument 'cmake_args' from command line to 'None'
+[0.996s] Level 5:colcon.colcon_core.verb:set package 'torto_rl_pkg' build argument 'cmake_target' from command line to 'None'
+[0.996s] Level 5:colcon.colcon_core.verb:set package 'torto_rl_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.996s] Level 5:colcon.colcon_core.verb:set package 'torto_rl_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.996s] Level 5:colcon.colcon_core.verb:set package 'torto_rl_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.996s] Level 5:colcon.colcon_core.verb:set package 'torto_rl_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.996s] Level 5:colcon.colcon_core.verb:set package 'torto_rl_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.996s] Level 5:colcon.colcon_core.verb:set package 'torto_rl_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.996s] Level 5:colcon.colcon_core.verb:set package 'torto_rl_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.996s] DEBUG:colcon.colcon_core.verb:Building package 'torto_rl_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sirapob/TORTO_NvidiaSim/build/torto_rl_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg', 'merge_install': False, 'path': '/home/sirapob/TORTO_NvidiaSim/src/torto_rl_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.998s] Level 5:colcon.colcon_core.verb:set package 'torto_sim_ctrl' build argument 'cmake_args' from command line to 'None'
+[0.998s] Level 5:colcon.colcon_core.verb:set package 'torto_sim_ctrl' build argument 'cmake_target' from command line to 'None'
+[0.998s] Level 5:colcon.colcon_core.verb:set package 'torto_sim_ctrl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.998s] Level 5:colcon.colcon_core.verb:set package 'torto_sim_ctrl' build argument 'cmake_clean_cache' from command line to 'False'
+[0.998s] Level 5:colcon.colcon_core.verb:set package 'torto_sim_ctrl' build argument 'cmake_clean_first' from command line to 'False'
+[0.998s] Level 5:colcon.colcon_core.verb:set package 'torto_sim_ctrl' build argument 'cmake_force_configure' from command line to 'False'
+[0.998s] Level 5:colcon.colcon_core.verb:set package 'torto_sim_ctrl' build argument 'ament_cmake_args' from command line to 'None'
+[0.998s] Level 5:colcon.colcon_core.verb:set package 'torto_sim_ctrl' build argument 'catkin_cmake_args' from command line to 'None'
+[0.998s] Level 5:colcon.colcon_core.verb:set package 'torto_sim_ctrl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.999s] DEBUG:colcon.colcon_core.verb:Building package 'torto_sim_ctrl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sirapob/TORTO_NvidiaSim/build/torto_sim_ctrl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl', 'merge_install': False, 'path': '/home/sirapob/TORTO_NvidiaSim/src/torto_sim_ctrl', 'symlink_install': True, 'test_result_base': None}
+[1.000s] Level 5:colcon.colcon_core.verb:set package 'torto_ctrl' build argument 'cmake_args' from command line to 'None'
+[1.000s] Level 5:colcon.colcon_core.verb:set package 'torto_ctrl' build argument 'cmake_target' from command line to 'None'
+[1.000s] Level 5:colcon.colcon_core.verb:set package 'torto_ctrl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.000s] Level 5:colcon.colcon_core.verb:set package 'torto_ctrl' build argument 'cmake_clean_cache' from command line to 'False'
+[1.000s] Level 5:colcon.colcon_core.verb:set package 'torto_ctrl' build argument 'cmake_clean_first' from command line to 'False'
+[1.001s] Level 5:colcon.colcon_core.verb:set package 'torto_ctrl' build argument 'cmake_force_configure' from command line to 'False'
+[1.001s] Level 5:colcon.colcon_core.verb:set package 'torto_ctrl' build argument 'ament_cmake_args' from command line to 'None'
+[1.001s] Level 5:colcon.colcon_core.verb:set package 'torto_ctrl' build argument 'catkin_cmake_args' from command line to 'None'
+[1.001s] Level 5:colcon.colcon_core.verb:set package 'torto_ctrl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.001s] DEBUG:colcon.colcon_core.verb:Building package 'torto_ctrl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sirapob/TORTO_NvidiaSim/build/torto_ctrl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl', 'merge_install': False, 'path': '/home/sirapob/TORTO_NvidiaSim/src/torto_ctrl', 'symlink_install': True, 'test_result_base': None}
+[1.002s] Level 5:colcon.colcon_core.verb:set package 'torto_bringup' build argument 'cmake_args' from command line to 'None'
+[1.002s] Level 5:colcon.colcon_core.verb:set package 'torto_bringup' build argument 'cmake_target' from command line to 'None'
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'torto_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'torto_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'torto_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'torto_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'torto_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'torto_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'torto_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.003s] DEBUG:colcon.colcon_core.verb:Building package 'torto_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sirapob/TORTO_NvidiaSim/build/torto_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup', 'merge_install': False, 'path': '/home/sirapob/TORTO_NvidiaSim/src/torto_bringup', 'symlink_install': True, 'test_result_base': None}
+[1.004s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.006s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.007s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sirapob/TORTO_NvidiaSim/src/torto_interfaces' with build type 'ament_cmake'
+[1.007s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sirapob/TORTO_NvidiaSim/src/torto_interfaces'
+[1.013s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.014s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.014s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.024s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sirapob/TORTO_NvidiaSim/src/torto_hardware' with build type 'ament_python'
+[1.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_hardware', 'ament_prefix_path')
+[1.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_hardware/share/torto_hardware/hook/ament_prefix_path.ps1'
+[1.027s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_hardware/share/torto_hardware/hook/ament_prefix_path.dsv'
+[1.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_hardware/share/torto_hardware/hook/ament_prefix_path.sh'
+[1.029s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.029s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.036s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sirapob/TORTO_NvidiaSim/src/torto_input_handle' with build type 'ament_python'
+[1.037s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_input_handle', 'ament_prefix_path')
+[1.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/share/torto_input_handle/hook/ament_prefix_path.ps1'
+[1.039s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/share/torto_input_handle/hook/ament_prefix_path.dsv'
+[1.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/share/torto_input_handle/hook/ament_prefix_path.sh'
+[1.041s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.041s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.050s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sirapob/TORTO_NvidiaSim/src/torto_odometry' with build type 'ament_python'
+[1.050s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_odometry', 'ament_prefix_path')
+[1.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_odometry/share/torto_odometry/hook/ament_prefix_path.ps1'
+[1.053s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_odometry/share/torto_odometry/hook/ament_prefix_path.dsv'
+[1.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_odometry/share/torto_odometry/hook/ament_prefix_path.sh'
+[1.055s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.055s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.062s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sirapob/TORTO_NvidiaSim/src/torto_sim_ctrl' with build type 'ament_python'
+[1.063s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_sim_ctrl', 'ament_prefix_path')
+[1.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/share/torto_sim_ctrl/hook/ament_prefix_path.ps1'
+[1.065s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/share/torto_sim_ctrl/hook/ament_prefix_path.dsv'
+[1.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/share/torto_sim_ctrl/hook/ament_prefix_path.sh'
+[1.066s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.066s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.074s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sirapob/TORTO_NvidiaSim/src/torto_description' with build type 'ament_cmake'
+[1.075s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sirapob/TORTO_NvidiaSim/src/torto_description'
+[1.076s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.076s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.083s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sirapob/TORTO_NvidiaSim/src/torto_rl_pkg' with build type 'ament_python'
+[1.083s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_rl_pkg', 'ament_prefix_path')
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/share/torto_rl_pkg/hook/ament_prefix_path.ps1'
+[1.085s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/share/torto_rl_pkg/hook/ament_prefix_path.dsv'
+[1.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/share/torto_rl_pkg/hook/ament_prefix_path.sh'
+[1.087s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.087s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble /usr/bin/cmake /home/sirapob/TORTO_NvidiaSim/src/torto_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces
+[2.046s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sirapob/TORTO_NvidiaSim/src/torto_hardware'
+[2.047s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.047s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.987s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sirapob/TORTO_NvidiaSim/src/torto_input_handle'
+[2.989s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.989s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.920s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sirapob/TORTO_NvidiaSim/src/torto_odometry'
+[3.921s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.921s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.899s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sirapob/TORTO_NvidiaSim/src/torto_sim_ctrl'
+[4.900s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.900s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.918s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sirapob/TORTO_NvidiaSim/build/torto_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble /usr/bin/cmake /home/sirapob/TORTO_NvidiaSim/src/torto_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sirapob/TORTO_NvidiaSim/install/torto_description
+[5.879s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sirapob/TORTO_NvidiaSim/src/torto_rl_pkg'
+[5.880s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.880s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble /usr/bin/cmake /home/sirapob/TORTO_NvidiaSim/src/torto_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces
+[5.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble /usr/bin/cmake --build /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces -- -j16 -l16
+[6.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sirapob/TORTO_NvidiaSim/build/torto_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble /usr/bin/cmake /home/sirapob/TORTO_NvidiaSim/src/torto_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sirapob/TORTO_NvidiaSim/install/torto_description
+[7.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sirapob/TORTO_NvidiaSim/build/torto_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble /usr/bin/cmake --build /home/sirapob/TORTO_NvidiaSim/build/torto_description -- -j16 -l16
+[7.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sirapob/TORTO_NvidiaSim/build/torto_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble /usr/bin/cmake --build /home/sirapob/TORTO_NvidiaSim/build/torto_description -- -j16 -l16
+[7.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sirapob/TORTO_NvidiaSim/build/torto_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble /usr/bin/cmake --install /home/sirapob/TORTO_NvidiaSim/build/torto_description
+[7.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sirapob/TORTO_NvidiaSim/build/torto_input_handle': PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_input_handle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/TORTO_NvidiaSim/build/torto_input_handle/build --no-deps symlink_data
+[7.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sirapob/TORTO_NvidiaSim/build/torto_sim_ctrl': PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_sim_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/TORTO_NvidiaSim/build/torto_sim_ctrl/build --no-deps symlink_data
+[7.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sirapob/TORTO_NvidiaSim/build/torto_hardware': PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/TORTO_NvidiaSim/build/torto_hardware/build --no-deps symlink_data
+[7.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sirapob/TORTO_NvidiaSim/build/torto_odometry': PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/TORTO_NvidiaSim/build/torto_odometry/build --no-deps symlink_data
+[7.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sirapob/TORTO_NvidiaSim/build/torto_rl_pkg': PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_rl_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/TORTO_NvidiaSim/build/torto_rl_pkg/build --no-deps symlink_data
+[8.927s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(torto_description)
+[8.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sirapob/TORTO_NvidiaSim/build/torto_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble /usr/bin/cmake --install /home/sirapob/TORTO_NvidiaSim/build/torto_description
+[8.940s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_description' for CMake module files
+[8.943s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_description' for CMake config files
+[8.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_description', 'cmake_prefix_path')
+[8.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/hook/cmake_prefix_path.ps1'
+[8.948s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/hook/cmake_prefix_path.dsv'
+[8.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/hook/cmake_prefix_path.sh'
+[8.952s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_description/bin'
+[8.952s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_description/lib/pkgconfig/torto_description.pc'
+[8.953s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_description/lib/python3.10/site-packages'
+[8.954s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_description/bin'
+[8.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/package.ps1'
+[8.960s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/package.dsv'
+[8.962s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/package.sh'
+[8.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/package.bash'
+[8.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/package.zsh'
+[8.973s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sirapob/TORTO_NvidiaSim/install/torto_description/share/colcon-core/packages/torto_description)
+[8.976s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(torto_description)
+[8.977s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_description' for CMake module files
+[8.980s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_description' for CMake config files
+[8.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_description', 'cmake_prefix_path')
+[8.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/hook/cmake_prefix_path.ps1'
+[8.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/hook/cmake_prefix_path.dsv'
+[8.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/hook/cmake_prefix_path.sh'
+[8.992s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_description/bin'
+[8.992s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_description/lib/pkgconfig/torto_description.pc'
+[8.993s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_description/lib/python3.10/site-packages'
+[8.994s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_description/bin'
+[8.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/package.ps1'
+[8.998s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/package.dsv'
+[9.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/package.sh'
+[9.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/package.bash'
+[9.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/package.zsh'
+[9.007s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sirapob/TORTO_NvidiaSim/install/torto_description/share/colcon-core/packages/torto_description)
+[10.049s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_input_handle', 'pythonpath_develop')
+[10.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/build/torto_input_handle/share/torto_input_handle/hook/pythonpath_develop.ps1'
+[10.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sirapob/TORTO_NvidiaSim/build/torto_input_handle' returned '0': PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_input_handle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/TORTO_NvidiaSim/build/torto_input_handle/build --no-deps symlink_data
+[10.058s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/TORTO_NvidiaSim/build/torto_input_handle/share/torto_input_handle/hook/pythonpath_develop.dsv'
+[10.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/build/torto_input_handle/share/torto_input_handle/hook/pythonpath_develop.sh'
+[10.068s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle' for CMake module files
+[10.070s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle' for CMake config files
+[10.074s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/lib'
+[10.075s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/bin'
+[10.076s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/lib/pkgconfig/torto_input_handle.pc'
+[10.081s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/lib/python3.10/site-packages'
+[10.085s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_input_handle', 'pythonpath')
+[10.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/share/torto_input_handle/hook/pythonpath.ps1'
+[10.089s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/share/torto_input_handle/hook/pythonpath.dsv'
+[10.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/share/torto_input_handle/hook/pythonpath.sh'
+[10.103s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/bin'
+[10.104s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(torto_input_handle)
+[10.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/share/torto_input_handle/package.ps1'
+[10.121s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/share/torto_input_handle/package.dsv'
+[10.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/share/torto_input_handle/package.sh'
+[10.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/share/torto_input_handle/package.bash'
+[10.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/share/torto_input_handle/package.zsh'
+[10.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/share/colcon-core/packages/torto_input_handle)
+[10.162s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_sim_ctrl', 'pythonpath_develop')
+[10.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/build/torto_sim_ctrl/share/torto_sim_ctrl/hook/pythonpath_develop.ps1'
+[10.173s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sirapob/TORTO_NvidiaSim/build/torto_sim_ctrl' returned '0': PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_sim_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/TORTO_NvidiaSim/build/torto_sim_ctrl/build --no-deps symlink_data
+[10.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/TORTO_NvidiaSim/build/torto_sim_ctrl/share/torto_sim_ctrl/hook/pythonpath_develop.dsv'
+[10.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/build/torto_sim_ctrl/share/torto_sim_ctrl/hook/pythonpath_develop.sh'
+[10.180s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl' for CMake module files
+[10.183s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl' for CMake config files
+[10.185s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/lib'
+[10.186s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/bin'
+[10.186s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/lib/pkgconfig/torto_sim_ctrl.pc'
+[10.189s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/lib/python3.10/site-packages'
+[10.190s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_sim_ctrl', 'pythonpath')
+[10.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/share/torto_sim_ctrl/hook/pythonpath.ps1'
+[10.193s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/share/torto_sim_ctrl/hook/pythonpath.dsv'
+[10.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/share/torto_sim_ctrl/hook/pythonpath.sh'
+[10.198s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/bin'
+[10.198s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(torto_sim_ctrl)
+[10.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/share/torto_sim_ctrl/package.ps1'
+[10.207s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/share/torto_sim_ctrl/package.dsv'
+[10.211s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/share/torto_sim_ctrl/package.sh'
+[10.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/share/torto_sim_ctrl/package.bash'
+[10.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/share/torto_sim_ctrl/package.zsh'
+[10.220s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/share/colcon-core/packages/torto_sim_ctrl)
+[10.222s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_hardware', 'pythonpath_develop')
+[10.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/build/torto_hardware/share/torto_hardware/hook/pythonpath_develop.ps1'
+[10.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sirapob/TORTO_NvidiaSim/build/torto_hardware' returned '0': PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/TORTO_NvidiaSim/build/torto_hardware/build --no-deps symlink_data
+[10.236s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/TORTO_NvidiaSim/build/torto_hardware/share/torto_hardware/hook/pythonpath_develop.dsv'
+[10.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/build/torto_hardware/share/torto_hardware/hook/pythonpath_develop.sh'
+[10.240s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_hardware' for CMake module files
+[10.242s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_hardware' for CMake config files
+[10.248s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_hardware/lib'
+[10.248s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_hardware/bin'
+[10.249s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_hardware/lib/pkgconfig/torto_hardware.pc'
+[10.250s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_hardware/lib/python3.10/site-packages'
+[10.250s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_hardware', 'pythonpath')
+[10.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_hardware/share/torto_hardware/hook/pythonpath.ps1'
+[10.253s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_hardware/share/torto_hardware/hook/pythonpath.dsv'
+[10.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_hardware/share/torto_hardware/hook/pythonpath.sh'
+[10.260s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_hardware/bin'
+[10.260s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(torto_hardware)
+[10.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_hardware/share/torto_hardware/package.ps1'
+[10.268s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_hardware/share/torto_hardware/package.dsv'
+[10.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_hardware/share/torto_hardware/package.sh'
+[10.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_hardware/share/torto_hardware/package.bash'
+[10.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_hardware/share/torto_hardware/package.zsh'
+[10.278s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sirapob/TORTO_NvidiaSim/install/torto_hardware/share/colcon-core/packages/torto_hardware)
+[10.286s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_odometry', 'pythonpath_develop')
+[10.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/build/torto_odometry/share/torto_odometry/hook/pythonpath_develop.ps1'
+[10.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sirapob/TORTO_NvidiaSim/build/torto_odometry' returned '0': PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/TORTO_NvidiaSim/build/torto_odometry/build --no-deps symlink_data
+[10.292s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/TORTO_NvidiaSim/build/torto_odometry/share/torto_odometry/hook/pythonpath_develop.dsv'
+[10.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/build/torto_odometry/share/torto_odometry/hook/pythonpath_develop.sh'
+[10.296s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_odometry' for CMake module files
+[10.299s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_odometry' for CMake config files
+[10.301s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_odometry/lib'
+[10.302s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_odometry/bin'
+[10.302s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_odometry/lib/pkgconfig/torto_odometry.pc'
+[10.303s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_odometry/lib/python3.10/site-packages'
+[10.303s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_odometry', 'pythonpath')
+[10.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_odometry/share/torto_odometry/hook/pythonpath.ps1'
+[10.306s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_odometry/share/torto_odometry/hook/pythonpath.dsv'
+[10.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_odometry/share/torto_odometry/hook/pythonpath.sh'
+[10.309s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_odometry/bin'
+[10.309s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(torto_odometry)
+[10.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_odometry/share/torto_odometry/package.ps1'
+[10.314s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_odometry/share/torto_odometry/package.dsv'
+[10.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_odometry/share/torto_odometry/package.sh'
+[10.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_odometry/share/torto_odometry/package.bash'
+[10.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_odometry/share/torto_odometry/package.zsh'
+[10.326s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sirapob/TORTO_NvidiaSim/install/torto_odometry/share/colcon-core/packages/torto_odometry)
+[10.328s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_rl_pkg', 'pythonpath_develop')
+[10.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/build/torto_rl_pkg/share/torto_rl_pkg/hook/pythonpath_develop.ps1'
+[10.333s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/TORTO_NvidiaSim/build/torto_rl_pkg/share/torto_rl_pkg/hook/pythonpath_develop.dsv'
+[10.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/build/torto_rl_pkg/share/torto_rl_pkg/hook/pythonpath_develop.sh'
+[10.339s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg' for CMake module files
+[10.341s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg' for CMake config files
+[10.343s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/lib'
+[10.344s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/bin'
+[10.344s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/lib/pkgconfig/torto_rl_pkg.pc'
+[10.345s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/lib/python3.10/site-packages'
+[10.346s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_rl_pkg', 'pythonpath')
+[10.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/share/torto_rl_pkg/hook/pythonpath.ps1'
+[10.349s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/share/torto_rl_pkg/hook/pythonpath.dsv'
+[10.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/share/torto_rl_pkg/hook/pythonpath.sh'
+[10.353s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/bin'
+[10.353s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(torto_rl_pkg)
+[10.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/share/torto_rl_pkg/package.ps1'
+[10.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sirapob/TORTO_NvidiaSim/build/torto_rl_pkg' returned '0': PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_rl_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/TORTO_NvidiaSim/build/torto_rl_pkg/build --no-deps symlink_data
+[10.359s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/share/torto_rl_pkg/package.dsv'
+[10.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/share/torto_rl_pkg/package.sh'
+[10.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/share/torto_rl_pkg/package.bash'
+[10.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/share/torto_rl_pkg/package.zsh'
+[10.365s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/share/colcon-core/packages/torto_rl_pkg)
+[17.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble /usr/bin/cmake --build /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces -- -j16 -l16
+[17.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble /usr/bin/cmake --install /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces
+[19.017s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(torto_interfaces)
+[19.018s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces' for CMake module files
+[19.019s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sirapob/TORTO_NvidiaSim/build/torto_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble /usr/bin/cmake --install /home/sirapob/TORTO_NvidiaSim/build/torto_interfaces
+[19.021s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces' for CMake config files
+[19.023s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_interfaces', 'cmake_prefix_path')
+[19.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/hook/cmake_prefix_path.ps1'
+[19.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/hook/cmake_prefix_path.dsv'
+[19.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/hook/cmake_prefix_path.sh'
+[19.028s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/lib'
+[19.028s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_interfaces', 'ld_library_path_lib')
+[19.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/hook/ld_library_path_lib.ps1'
+[19.030s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/hook/ld_library_path_lib.dsv'
+[19.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/hook/ld_library_path_lib.sh'
+[19.032s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/bin'
+[19.032s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/lib/pkgconfig/torto_interfaces.pc'
+[19.033s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/lib/python3.10/site-packages'
+[19.033s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/bin'
+[19.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/package.ps1'
+[19.035s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/package.dsv'
+[19.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/package.sh'
+[19.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/package.bash'
+[19.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/package.zsh'
+[19.039s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/colcon-core/packages/torto_interfaces)
+[19.041s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(torto_interfaces)
+[19.042s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces' for CMake module files
+[19.043s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces' for CMake config files
+[19.045s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_interfaces', 'cmake_prefix_path')
+[19.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/hook/cmake_prefix_path.ps1'
+[19.047s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/hook/cmake_prefix_path.dsv'
+[19.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/hook/cmake_prefix_path.sh'
+[19.050s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/lib'
+[19.050s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_interfaces', 'ld_library_path_lib')
+[19.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/hook/ld_library_path_lib.ps1'
+[19.052s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/hook/ld_library_path_lib.dsv'
+[19.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/hook/ld_library_path_lib.sh'
+[19.056s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/bin'
+[19.056s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/lib/pkgconfig/torto_interfaces.pc'
+[19.056s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/lib/python3.10/site-packages'
+[19.057s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/bin'
+[19.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/package.ps1'
+[19.060s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/package.dsv'
+[19.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/package.sh'
+[19.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/package.bash'
+[19.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/torto_interfaces/package.zsh'
+[19.064s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/share/colcon-core/packages/torto_interfaces)
+[19.065s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sirapob/TORTO_NvidiaSim/src/torto_ctrl' with build type 'ament_python'
+[19.065s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_ctrl', 'ament_prefix_path')
+[19.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/share/torto_ctrl/hook/ament_prefix_path.ps1'
+[19.068s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/share/torto_ctrl/hook/ament_prefix_path.dsv'
+[19.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/share/torto_ctrl/hook/ament_prefix_path.sh'
+[19.071s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.071s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.965s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sirapob/TORTO_NvidiaSim/src/torto_ctrl'
+[19.965s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.965s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sirapob/TORTO_NvidiaSim/build/torto_ctrl': CMAKE_PREFIX_PATH=/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces:/home/sirapob/TORTO_NvidiaSim/install/torto_bringup:/home/sirapob/TORTO_NvidiaSim/install/torto_description PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/TORTO_NvidiaSim/build/torto_ctrl/build --no-deps symlink_data
+[22.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_ctrl', 'pythonpath_develop')
+[22.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/build/torto_ctrl/share/torto_ctrl/hook/pythonpath_develop.ps1'
+[22.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sirapob/TORTO_NvidiaSim/build/torto_ctrl' returned '0': CMAKE_PREFIX_PATH=/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces:/home/sirapob/TORTO_NvidiaSim/install/torto_bringup:/home/sirapob/TORTO_NvidiaSim/install/torto_description PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/TORTO_NvidiaSim/build/torto_ctrl/build --no-deps symlink_data
+[22.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/TORTO_NvidiaSim/build/torto_ctrl/share/torto_ctrl/hook/pythonpath_develop.dsv'
+[22.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/build/torto_ctrl/share/torto_ctrl/hook/pythonpath_develop.sh'
+[22.580s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl' for CMake module files
+[22.582s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl' for CMake config files
+[22.583s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/lib'
+[22.584s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/bin'
+[22.584s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/lib/pkgconfig/torto_ctrl.pc'
+[22.585s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/lib/python3.10/site-packages'
+[22.585s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_ctrl', 'pythonpath')
+[22.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/share/torto_ctrl/hook/pythonpath.ps1'
+[22.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/share/torto_ctrl/hook/pythonpath.dsv'
+[22.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/share/torto_ctrl/hook/pythonpath.sh'
+[22.591s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/bin'
+[22.591s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(torto_ctrl)
+[22.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/share/torto_ctrl/package.ps1'
+[22.594s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/share/torto_ctrl/package.dsv'
+[22.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/share/torto_ctrl/package.sh'
+[22.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/share/torto_ctrl/package.bash'
+[22.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/share/torto_ctrl/package.zsh'
+[22.600s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/share/colcon-core/packages/torto_ctrl)
+[22.601s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sirapob/TORTO_NvidiaSim/src/torto_bringup' with build type 'ament_cmake'
+[22.602s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sirapob/TORTO_NvidiaSim/src/torto_bringup'
+[22.603s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[22.603s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[22.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sirapob/TORTO_NvidiaSim/build/torto_bringup': AMENT_PREFIX_PATH=/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/TORTO_NvidiaSim/install/torto_bringup:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces:/home/sirapob/TORTO_NvidiaSim/install/torto_description:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces:/home/sirapob/TORTO_NvidiaSim/install/torto_bringup:/home/sirapob/TORTO_NvidiaSim/install/torto_description:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/build/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/build/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/build/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/build/torto_hardware:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages:/home/sirapob/isaacsim/isaac_ros_ws/build/reset_listener_pkg:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /home/sirapob/TORTO_NvidiaSim/src/torto_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sirapob/TORTO_NvidiaSim/install/torto_bringup
+[24.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sirapob/TORTO_NvidiaSim/build/torto_bringup' returned '0': AMENT_PREFIX_PATH=/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/TORTO_NvidiaSim/install/torto_bringup:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces:/home/sirapob/TORTO_NvidiaSim/install/torto_description:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces:/home/sirapob/TORTO_NvidiaSim/install/torto_bringup:/home/sirapob/TORTO_NvidiaSim/install/torto_description:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/build/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/build/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/build/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/build/torto_hardware:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages:/home/sirapob/isaacsim/isaac_ros_ws/build/reset_listener_pkg:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake /home/sirapob/TORTO_NvidiaSim/src/torto_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sirapob/TORTO_NvidiaSim/install/torto_bringup
+[24.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sirapob/TORTO_NvidiaSim/build/torto_bringup': AMENT_PREFIX_PATH=/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/TORTO_NvidiaSim/install/torto_bringup:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces:/home/sirapob/TORTO_NvidiaSim/install/torto_description:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces:/home/sirapob/TORTO_NvidiaSim/install/torto_bringup:/home/sirapob/TORTO_NvidiaSim/install/torto_description:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/build/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/build/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/build/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/build/torto_hardware:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages:/home/sirapob/isaacsim/isaac_ros_ws/build/reset_listener_pkg:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/sirapob/TORTO_NvidiaSim/build/torto_bringup -- -j16 -l16
+[24.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sirapob/TORTO_NvidiaSim/build/torto_bringup' returned '0': AMENT_PREFIX_PATH=/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/TORTO_NvidiaSim/install/torto_bringup:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces:/home/sirapob/TORTO_NvidiaSim/install/torto_description:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces:/home/sirapob/TORTO_NvidiaSim/install/torto_bringup:/home/sirapob/TORTO_NvidiaSim/install/torto_description:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/build/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/build/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/build/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/build/torto_hardware:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages:/home/sirapob/isaacsim/isaac_ros_ws/build/reset_listener_pkg:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/sirapob/TORTO_NvidiaSim/build/torto_bringup -- -j16 -l16
+[24.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sirapob/TORTO_NvidiaSim/build/torto_bringup': AMENT_PREFIX_PATH=/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/TORTO_NvidiaSim/install/torto_bringup:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces:/home/sirapob/TORTO_NvidiaSim/install/torto_description:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces:/home/sirapob/TORTO_NvidiaSim/install/torto_bringup:/home/sirapob/TORTO_NvidiaSim/install/torto_description:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/build/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/build/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/build/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/build/torto_hardware:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages:/home/sirapob/isaacsim/isaac_ros_ws/build/reset_listener_pkg:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/sirapob/TORTO_NvidiaSim/build/torto_bringup
+[24.978s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(torto_bringup)
+[24.979s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup' for CMake module files
+[24.980s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sirapob/TORTO_NvidiaSim/build/torto_bringup' returned '0': AMENT_PREFIX_PATH=/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/TORTO_NvidiaSim/install/torto_bringup:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces:/home/sirapob/TORTO_NvidiaSim/install/torto_description:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble CMAKE_PREFIX_PATH=/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces:/home/sirapob/TORTO_NvidiaSim/install/torto_bringup:/home/sirapob/TORTO_NvidiaSim/install/torto_description:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg:/opt/ros/humble PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/build/torto_sim_ctrl:/home/sirapob/TORTO_NvidiaSim/install/torto_sim_ctrl/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/build/torto_odometry:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/build/torto_input_handle:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/build/torto_hardware:/home/sirapob/TORTO_NvidiaSim/install/torto_hardware/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/lib/python3.10/site-packages:/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces/local/lib/python3.10/dist-packages:/home/sirapob/isaacsim/isaac_ros_ws/build/reset_listener_pkg:/home/sirapob/isaacsim/isaac_ros_ws/install/reset_listener_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --install /home/sirapob/TORTO_NvidiaSim/build/torto_bringup
+[24.981s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup' for CMake config files
+[24.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_bringup', 'cmake_prefix_path')
+[24.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup/share/torto_bringup/hook/cmake_prefix_path.ps1'
+[24.983s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup/share/torto_bringup/hook/cmake_prefix_path.dsv'
+[24.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup/share/torto_bringup/hook/cmake_prefix_path.sh'
+[24.985s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup/bin'
+[24.985s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup/lib/pkgconfig/torto_bringup.pc'
+[24.986s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup/lib/python3.10/site-packages'
+[24.986s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup/bin'
+[24.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup/share/torto_bringup/package.ps1'
+[24.988s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup/share/torto_bringup/package.dsv'
+[24.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup/share/torto_bringup/package.sh'
+[24.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup/share/torto_bringup/package.bash'
+[24.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup/share/torto_bringup/package.zsh'
+[24.991s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sirapob/TORTO_NvidiaSim/install/torto_bringup/share/colcon-core/packages/torto_bringup)
+[24.992s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(torto_bringup)
+[24.993s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup' for CMake module files
+[24.994s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup' for CMake config files
+[24.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('torto_bringup', 'cmake_prefix_path')
+[24.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup/share/torto_bringup/hook/cmake_prefix_path.ps1'
+[24.996s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup/share/torto_bringup/hook/cmake_prefix_path.dsv'
+[24.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup/share/torto_bringup/hook/cmake_prefix_path.sh'
+[24.998s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup/bin'
+[24.999s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup/lib/pkgconfig/torto_bringup.pc'
+[24.999s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup/lib/python3.10/site-packages'
+[25.000s] Level 1:colcon.colcon_core.environment:checking '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup/bin'
+[25.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup/share/torto_bringup/package.ps1'
+[25.003s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup/share/torto_bringup/package.dsv'
+[25.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup/share/torto_bringup/package.sh'
+[25.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup/share/torto_bringup/package.bash'
+[25.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/sirapob/TORTO_NvidiaSim/install/torto_bringup/share/torto_bringup/package.zsh'
+[25.006s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sirapob/TORTO_NvidiaSim/install/torto_bringup/share/colcon-core/packages/torto_bringup)
+[25.006s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[25.007s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[25.007s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[25.007s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[25.019s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[25.019s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[25.019s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[25.043s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[25.044s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sirapob/TORTO_NvidiaSim/install/local_setup.ps1'
+[25.046s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sirapob/TORTO_NvidiaSim/install/_local_setup_util_ps1.py'
+[25.049s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sirapob/TORTO_NvidiaSim/install/setup.ps1'
+[25.052s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sirapob/TORTO_NvidiaSim/install/local_setup.sh'
+[25.053s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sirapob/TORTO_NvidiaSim/install/_local_setup_util_sh.py'
+[25.055s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sirapob/TORTO_NvidiaSim/install/setup.sh'
+[25.058s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sirapob/TORTO_NvidiaSim/install/local_setup.bash'
+[25.059s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sirapob/TORTO_NvidiaSim/install/setup.bash'
+[25.063s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sirapob/TORTO_NvidiaSim/install/local_setup.zsh'
+[25.064s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sirapob/TORTO_NvidiaSim/install/setup.zsh'

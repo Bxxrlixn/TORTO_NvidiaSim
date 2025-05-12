@@ -248,8 +248,15 @@ CMakeFiles/torto_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py
   rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__functions.h \
   rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.h \
   rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__struct.h \
-  rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.h
+  rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__functions.h \
+  rosidl_generator_c/torto_interfaces/msg/detail/torto_sim_reset__type_support.h \
+  rosidl_generator_c/torto_interfaces/msg/detail/torto_sim_reset__struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+  rosidl_generator_c/torto_interfaces/msg/detail/torto_sim_reset__functions.h
 
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
 rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__functions.h:
 
@@ -388,6 +395,8 @@ rosidl_generator_c/torto_interfaces/msg/rosidl_generator_c__visibility_control.h
 /usr/include/python3.10/fileobject.h:
 
 /usr/include/x86_64-linux-gnu/bits/statx-generic.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
@@ -571,6 +580,8 @@ rosidl_generator_c/torto_interfaces/msg/detail/torto_joint_angles__type_support.
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
+rosidl_generator_c/torto_interfaces/msg/detail/torto_sim_reset__type_support.h:
+
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
 
 /usr/include/python3.10/Python.h:
@@ -592,6 +603,8 @@ rosidl_generator_c/torto_interfaces/msg/detail/torto_ctrl_params__type_support.h
 /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h:
 
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+
+rosidl_generator_c/torto_interfaces/msg/detail/torto_sim_reset__functions.h:
 
 rosidl_generator_py/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_c.c:
 
@@ -618,6 +631,8 @@ rosidl_generator_py/torto_interfaces/_torto_interfaces_s.ep.rosidl_typesupport_c
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+rosidl_generator_c/torto_interfaces/msg/detail/torto_sim_reset__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 

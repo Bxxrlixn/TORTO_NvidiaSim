@@ -1,0 +1,24 @@
+[1.946s] Invoking command in '/home/sirapob/TORTO_NvidiaSim/build/torto_ctrl': CMAKE_PREFIX_PATH=/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces:/home/sirapob/TORTO_NvidiaSim/install/torto_bringup:/home/sirapob/TORTO_NvidiaSim/install/torto_description PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/TORTO_NvidiaSim/build/torto_ctrl/build --no-deps symlink_data
+[2.803s] running develop
+[3.384s] running egg_info
+[3.387s] creating torto_ctrl.egg-info
+[3.387s] writing torto_ctrl.egg-info/PKG-INFO
+[3.388s] writing dependency_links to torto_ctrl.egg-info/dependency_links.txt
+[3.388s] writing entry points to torto_ctrl.egg-info/entry_points.txt
+[3.388s] writing requirements to torto_ctrl.egg-info/requires.txt
+[3.389s] writing top-level names to torto_ctrl.egg-info/top_level.txt
+[3.389s] writing manifest file 'torto_ctrl.egg-info/SOURCES.txt'
+[3.394s] reading manifest file 'torto_ctrl.egg-info/SOURCES.txt'
+[3.400s] writing manifest file 'torto_ctrl.egg-info/SOURCES.txt'
+[3.407s] running build_ext
+[3.407s] Creating /home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/lib/python3.10/site-packages/torto-ctrl.egg-link (link to .)
+[3.411s] Installing torto_controller_node script to /home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/lib/torto_ctrl
+[3.412s] 
+[3.412s] Installed /home/sirapob/TORTO_NvidiaSim/build/torto_ctrl
+[3.412s] running symlink_data
+[3.413s] creating /home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/share/ament_index
+[3.413s] creating /home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/share/ament_index/resource_index
+[3.413s] creating /home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/share/ament_index/resource_index/packages
+[3.414s] symbolically linking /home/sirapob/TORTO_NvidiaSim/build/torto_ctrl/resource/torto_ctrl -> /home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/share/ament_index/resource_index/packages
+[3.414s] symbolically linking /home/sirapob/TORTO_NvidiaSim/build/torto_ctrl/package.xml -> /home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/share/torto_ctrl
+[3.507s] Invoked command in '/home/sirapob/TORTO_NvidiaSim/build/torto_ctrl' returned '0': CMAKE_PREFIX_PATH=/home/sirapob/TORTO_NvidiaSim/install/torto_interfaces:/home/sirapob/TORTO_NvidiaSim/install/torto_bringup:/home/sirapob/TORTO_NvidiaSim/install/torto_description PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/TORTO_NvidiaSim/install/torto_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/TORTO_NvidiaSim/build/torto_ctrl/build --no-deps symlink_data

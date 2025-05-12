@@ -1,0 +1,17 @@
+[5.280s] Invoking command in '/home/sirapob/TORTO_NvidiaSim/build/torto_input_handle': PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_input_handle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/TORTO_NvidiaSim/build/torto_input_handle/build --no-deps symlink_data
+[6.350s] running develop
+[7.027s] running egg_info
+[7.028s] writing torto_input_handle.egg-info/PKG-INFO
+[7.029s] writing dependency_links to torto_input_handle.egg-info/dependency_links.txt
+[7.030s] writing entry points to torto_input_handle.egg-info/entry_points.txt
+[7.031s] writing requirements to torto_input_handle.egg-info/requires.txt
+[7.032s] writing top-level names to torto_input_handle.egg-info/top_level.txt
+[7.037s] reading manifest file 'torto_input_handle.egg-info/SOURCES.txt'
+[7.040s] writing manifest file 'torto_input_handle.egg-info/SOURCES.txt'
+[7.045s] running build_ext
+[7.046s] Creating /home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/lib/python3.10/site-packages/torto-input-handle.egg-link (link to .)
+[7.046s] Installing ps5_ctrl_params_node script to /home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/lib/torto_input_handle
+[7.048s] 
+[7.048s] Installed /home/sirapob/TORTO_NvidiaSim/build/torto_input_handle
+[7.048s] running symlink_data
+[7.128s] Invoked command in '/home/sirapob/TORTO_NvidiaSim/build/torto_input_handle' returned '0': PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_input_handle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/TORTO_NvidiaSim/install/torto_input_handle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/TORTO_NvidiaSim/build/torto_input_handle/build --no-deps symlink_data

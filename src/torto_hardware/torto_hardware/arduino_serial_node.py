@@ -8,7 +8,6 @@ import math
 from torto_hardware.servo_driver.servo_calibration import anglesConfig
 from torto_hardware.imu_driver.mpu6050_calibration import SensorCalibration
 
-
 class SerialNode(Node):
     
     def __init__(self):

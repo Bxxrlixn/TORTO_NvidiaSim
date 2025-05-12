@@ -1,0 +1,17 @@
+[5.260s] Invoking command in '/home/sirapob/TORTO_NvidiaSim/build/torto_odometry': PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/TORTO_NvidiaSim/build/torto_odometry/build --no-deps symlink_data
+[6.243s] running develop
+[6.926s] running egg_info
+[6.931s] writing torto_odometry.egg-info/PKG-INFO
+[6.933s] writing dependency_links to torto_odometry.egg-info/dependency_links.txt
+[6.934s] writing entry points to torto_odometry.egg-info/entry_points.txt
+[6.935s] writing requirements to torto_odometry.egg-info/requires.txt
+[6.936s] writing top-level names to torto_odometry.egg-info/top_level.txt
+[6.938s] reading manifest file 'torto_odometry.egg-info/SOURCES.txt'
+[6.939s] writing manifest file 'torto_odometry.egg-info/SOURCES.txt'
+[6.945s] running build_ext
+[6.951s] Creating /home/sirapob/TORTO_NvidiaSim/install/torto_odometry/lib/python3.10/site-packages/torto-odometry.egg-link (link to .)
+[6.952s] Installing odom_depen_on_imu_node script to /home/sirapob/TORTO_NvidiaSim/install/torto_odometry/lib/torto_odometry
+[6.952s] 
+[6.953s] Installed /home/sirapob/TORTO_NvidiaSim/build/torto_odometry
+[6.953s] running symlink_data
+[7.056s] Invoked command in '/home/sirapob/TORTO_NvidiaSim/build/torto_odometry' returned '0': PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/TORTO_NvidiaSim/install/torto_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/TORTO_NvidiaSim/build/torto_odometry/build --no-deps symlink_data

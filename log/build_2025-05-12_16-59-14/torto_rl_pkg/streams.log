@@ -1,0 +1,18 @@
+[5.227s] Invoking command in '/home/sirapob/TORTO_NvidiaSim/build/torto_rl_pkg': PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_rl_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/TORTO_NvidiaSim/build/torto_rl_pkg/build --no-deps symlink_data
+[6.167s] running develop
+[6.805s] running egg_info
+[6.805s] writing torto_rl_pkg.egg-info/PKG-INFO
+[6.806s] writing dependency_links to torto_rl_pkg.egg-info/dependency_links.txt
+[6.806s] writing entry points to torto_rl_pkg.egg-info/entry_points.txt
+[6.806s] writing requirements to torto_rl_pkg.egg-info/requires.txt
+[6.807s] writing top-level names to torto_rl_pkg.egg-info/top_level.txt
+[6.811s] reading manifest file 'torto_rl_pkg.egg-info/SOURCES.txt'
+[6.813s] writing manifest file 'torto_rl_pkg.egg-info/SOURCES.txt'
+[6.817s] running build_ext
+[6.818s] Creating /home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/lib/python3.10/site-packages/torto-rl-pkg.egg-link (link to .)
+[6.821s] Installing torto_controller_node script to /home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/lib/torto_rl_pkg
+[6.821s] Installing torto_ros_bridge script to /home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/lib/torto_rl_pkg
+[6.822s] 
+[6.823s] Installed /home/sirapob/TORTO_NvidiaSim/build/torto_rl_pkg
+[6.823s] running symlink_data
+[6.939s] Invoked command in '/home/sirapob/TORTO_NvidiaSim/build/torto_rl_pkg' returned '0': PYTHONPATH=/home/sirapob/TORTO_NvidiaSim/build/torto_rl_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sirapob/TORTO_NvidiaSim/install/torto_rl_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sirapob/TORTO_NvidiaSim/build/torto_rl_pkg/build --no-deps symlink_data

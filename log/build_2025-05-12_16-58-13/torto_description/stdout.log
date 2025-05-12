@@ -1,0 +1,64 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sirapob/TORTO_NvidiaSim/build/torto_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//urdf/torto.urdf
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//urdf/torto/configuration/torto_base.usd
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//urdf/torto/configuration/torto_physics.usd
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//urdf/torto/configuration/torto_sensor.usd
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//urdf/torto/torto.usd
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//launch/display.launch.xml
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/collision_Body.stl
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/collision_DetoidFLBR.stl
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/collision_DetoidFRBL.stl
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/collision_FemurFLBR.stl
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/collision_FemurFRBL.stl
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/collision_TibiaFLBR.stl
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/collision_TibiaFRBL.stl
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/torto_Body.stl
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/torto_Body.usd
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/torto_detoid_FLBR.stl
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/torto_detoid_FRBL.stl
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/torto_femur_FLBR.stl
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/torto_femur_FRBL.stl
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/torto_hamquad_FLBR.stl
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/torto_hamquad_FRBL.stl
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/torto_hip_FLBR.stl
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/torto_hip_FRBL.stl
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/torto_servo_arm.stl
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/torto_tibia_FLBR.stl
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/frame/torto_tibia_FRBL.stl
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/sensors/torto_MPU6050.stl
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//meshes/sensors/torto_YDLidarX3.stl
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description//rviz/urdf_config.rviz
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/ament_index/resource_index/package_run_dependencies/torto_description
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/ament_index/resource_index/parent_prefix_path/torto_description
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/environment/path.sh
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/environment/path.dsv
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/local_setup.bash
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/local_setup.sh
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/local_setup.zsh
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/local_setup.dsv
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/package.dsv
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/ament_index/resource_index/packages/torto_description
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/cmake/torto_descriptionConfig.cmake
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/cmake/torto_descriptionConfig-version.cmake
+-- Symlinking: /home/sirapob/TORTO_NvidiaSim/install/torto_description/share/torto_description/package.xml
